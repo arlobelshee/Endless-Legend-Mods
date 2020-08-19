@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<WorldGeneratorSettings>
+
+  <!--============================================== SPAWN POSITION FIDS BALANCING ===================================================-->
+
+  <TerrainBaseFIDSList>
+    <TerrainFIDS Name="ArcticOcean"               Food="1" Industry="1" Dust="1" Science="0"/>
+    <TerrainFIDS Name="TundraOcean"               Food="1" Industry="1" Dust="1" Science="0"/>
+    <TerrainFIDS Name="ChillyOcean"               Food="1" Industry="1" Dust="1" Science="0"/>
+    <TerrainFIDS Name="Ocean"                     Food="1" Industry="1" Dust="1" Science="0"/>
+    <TerrainFIDS Name="TropicalOcean"             Food="1" Industry="1" Dust="1" Science="0"/>
+    <TerrainFIDS Name="DesertOcean"               Food="1" Industry="1" Dust="1" Science="0"/>
+
+    <TerrainFIDS Name="DriftIce"                  Food="1" Industry="0" Dust="1" Science="1"/>
+    <TerrainFIDS Name="TundraDriftIce"            Food="1" Industry="0" Dust="1" Science="1"/>
+    <TerrainFIDS Name="CoralReef"                 Food="1" Industry="0" Dust="1" Science="1"/>
+    <TerrainFIDS Name="DesertCoralReef"           Food="1" Industry="0" Dust="1" Science="1"/>
+
+    <TerrainFIDS Name="FrozenWaters"              Food="1" Industry="0" Dust="2" Science="0"/>
+    <TerrainFIDS Name="TundraWaters"              Food="1" Industry="0" Dust="2" Science="0"/>
+    <TerrainFIDS Name="ChillyWaters"              Food="1" Industry="0" Dust="2" Science="0"/>
+    <TerrainFIDS Name="CoastalWaters"             Food="1" Industry="0" Dust="2" Science="0"/>
+    <TerrainFIDS Name="TropicalWaters"            Food="1" Industry="0" Dust="2" Science="0"/>
+    <TerrainFIDS Name="DesertWaters"              Food="1" Industry="0" Dust="2" Science="0"/>
+
+    <TerrainFIDS Name="FrozenInlandWaters"        Food="2" Industry="0" Dust="1" Science="0"/>
+    <TerrainFIDS Name="TundraInlandWaters"        Food="2" Industry="0" Dust="1" Science="0"/>
+    <TerrainFIDS Name="ChillyInlandWaters"        Food="2" Industry="0" Dust="1" Science="0"/>
+    <TerrainFIDS Name="InlandWater"               Food="2" Industry="0" Dust="1" Science="0"/>
+    <TerrainFIDS Name="TropicalInlandWaters"      Food="2" Industry="0" Dust="1" Science="0"/>
+    <TerrainFIDS Name="DesertInlandWaters"        Food="2" Industry="0" Dust="1" Science="0"/>
+
+    <TerrainFIDS Name="CrystalIce"                Food="0" Industry="1" Dust="0" Science="2"/>
+    <TerrainFIDS Name="Snow"                      Food="1" Industry="0" Dust="1" Science="1"/>
+    <TerrainFIDS Name="FrozenGrass"               Food="2" Industry="0" Dust="1" Science="0"/>
+    <TerrainFIDS Name="FrozenSpikes"              Food="0" Industry="1" Dust="0" Science="2"/>
+    <TerrainFIDS Name="CrystalForest"             Food="0" Industry="2" Dust="0" Science="1"/>
+    <TerrainFIDS Name="CrystalField"              Food="0" Industry="0" Dust="0" Science="3"/>
+
+    <TerrainFIDS Name="Taiga"                     Food="1" Industry="2" Dust="0" Science="0"/>
+    <TerrainFIDS Name="TundraRocks"               Food="0" Industry="1" Dust="1" Science="1"/>
+    <TerrainFIDS Name="TundraGrass"               Food="2" Industry="0" Dust="1" Science="0"/>
+    <TerrainFIDS Name="TundraDirtField"           Food="0" Industry="0" Dust="2" Science="1"/>
+    <TerrainFIDS Name="TundraRockyField"          Food="0" Industry="1" Dust="0" Science="2"/>
+    <TerrainFIDS Name="TundraHighMountainForest"  Food="1" Industry="2" Dust="0" Science="0"/>
+    <TerrainFIDS Name="TundraSnowyRockyField"     Food="0" Industry="1" Dust="0" Science="2"/>
+    <TerrainFIDS Name="TundraSnowyField"          Food="0" Industry="0" Dust="2" Science="1"/>
+
+    <TerrainFIDS Name="SnowyField"                Food="1" Industry="0" Dust="1" Science="1"/>
+    <TerrainFIDS Name="ColdDirtField"             Food="0" Industry="0" Dust="2" Science="1"/>
+    <TerrainFIDS Name="ColdGrassland"             Food="2" Industry="0" Dust="1" Science="0"/>
+    <TerrainFIDS Name="RockyField"                Food="0" Industry="1" Dust="0" Science="2"/>
+    <TerrainFIDS Name="ColdForest"                Food="1" Industry="2" Dust="0" Science="0"/>
+
+    <TerrainFIDS Name="HighSnowyField"  	      Food="2" Industry="0" Dust="1" Science="0"/>
+    <TerrainFIDS Name="HighMountainForest"        Food="1" Industry="2" Dust="0" Science="0"/>
+    <TerrainFIDS Name="SnowyDirtField"            Food="0" Industry="0" Dust="2" Science="1"/>
+    <TerrainFIDS Name="SnowyRockyField"           Food="0" Industry="1" Dust="0" Science="2"/>
+
+    <TerrainFIDS Name="DirtField"                 Food="0" Industry="1" Dust="2" Science="0"/>
+
+    <TerrainFIDS Name="EnchantedForest"           Food="1" Industry="1" Dust="0" Science="1"/>
+    <TerrainFIDS Name="TemperateForest"           Food="1" Industry="2" Dust="0" Science="0"/>
+    <TerrainFIDS Name="Wetland"                   Food="2" Industry="1" Dust="0" Science="0"/>
+    <TerrainFIDS Name="Grassland"                 Food="3" Industry="0" Dust="0" Science="0"/>
+    <TerrainFIDS Name="Prairie"                   Food="2" Industry="0" Dust="1" Science="0"/>
+
+    <TerrainFIDS Name="HotPrairie"                Food="2" Industry="0" Dust="1" Science="0"/>
+    <TerrainFIDS Name="RedSoil"                   Food="2" Industry="0" Dust="0" Science="1"/>
+    <TerrainFIDS Name="RedRock"                   Food="0" Industry="1" Dust="0" Science="2"/>
+    <TerrainFIDS Name="TropicalWetland"           Food="2" Industry="1" Dust="0" Science="0"/>
+    <TerrainFIDS Name="PalmTrees"                 Food="1" Industry="2" Dust="0" Science="0"/>
+
+    <TerrainFIDS Name="TropicalDirtField"         Food="0" Industry="0" Dust="2" Science="1"/>
+    <TerrainFIDS Name="TropicalMountainRock"      Food="0" Industry="1" Dust="0" Science="2"/>
+    <TerrainFIDS Name="TropicalMountainForest"    Food="1" Industry="1" Dust="0" Science="1"/>
+
+    <TerrainFIDS Name="Shrubland"                 Food="1" Industry="0" Dust="2" Science="0"/>
+    <TerrainFIDS Name="Savanna"                   Food="1" Industry="1" Dust="1" Science="0"/>
+    <TerrainFIDS Name="DrySoil"                   Food="0" Industry="1" Dust="1" Science="1"/>
+    <TerrainFIDS Name="Sandstone"                 Food="0" Industry="1" Dust="1" Science="1"/>
+    <TerrainFIDS Name="SandDunes"                 Food="0" Industry="1" Dust="2" Science="0"/>
+    <TerrainFIDS Name="SandstoneSwirls"           Food="0" Industry="1" Dust="0" Science="2"/>
+  </TerrainBaseFIDSList>
+
+  <!--============================================== TERRAIN ANOMALY ODDS ===========================================-->
+
+  <!--GlobalAnomalyMultiplier is a value that is 100 by default-->
+  <!--It controls the overall quantity of anomalies in the world-->
+  <!--If larger than 100, more anomalies will spawn than the default-->
+  <!--If smaller than 100, less anomalies will spawn-->
+  <!--If zero or negative, will prevent any anomaly from spawning-->
+  <GlobalAnomalyMultiplier>1000</GlobalAnomalyMultiplier>
+
+  <!--Terrains that do not appear here will not contain any anomaly-->
+  <!--Odds represent the expected number of anomaly-free hexes for one anomaly-->
+  <AnomalyOdds>
+    <TerrainAnomaly Name="CrystalIce"               Odds="7"/>
+    <TerrainAnomaly Name="Snow"                     Odds="7"/>
+    <TerrainAnomaly Name="FrozenGrass"              Odds="7"/>
+    <TerrainAnomaly Name="FrozenSpikes"             Odds="7"/>
+    <TerrainAnomaly Name="CrystalForest"            Odds="7"/>
+    <TerrainAnomaly Name="CrystalField"             Odds="7"/>
+    <TerrainAnomaly Name="Taiga"                    Odds="7"/>
+    <TerrainAnomaly Name="TundraRocks"              Odds="7"/>
+    <TerrainAnomaly Name="TundraGrass"              Odds="7"/>
+    <TerrainAnomaly Name="TundraDirtField"          Odds="7"/>
+    <TerrainAnomaly Name="TundraRockyField"         Odds="7"/>
+    <TerrainAnomaly Name="TundraHighMountainForest" Odds="7"/>
+    <TerrainAnomaly Name="TundraSnowyRockyField"    Odds="7"/>
+    <TerrainAnomaly Name="TundraSnowyField"         Odds="7"/>
+    <TerrainAnomaly Name="SnowyField"               Odds="7"/>
+    <TerrainAnomaly Name="ColdDirtField"            Odds="7"/>
+    <TerrainAnomaly Name="ColdGrassland"            Odds="7"/>
+    <TerrainAnomaly Name="RockyField"               Odds="7"/>
+    <TerrainAnomaly Name="ColdForest"               Odds="7"/>
+    <TerrainAnomaly Name="HighSnowyField"           Odds="7"/>
+    <TerrainAnomaly Name="HighMountainForest"       Odds="7"/>
+    <TerrainAnomaly Name="SnowyDirtField"           Odds="7"/>
+    <TerrainAnomaly Name="SnowyRockyField"          Odds="7"/>
+    <TerrainAnomaly Name="DirtField"                Odds="7"/>
+    <TerrainAnomaly Name="EnchantedForest"          Odds="7"/>
+    <TerrainAnomaly Name="TemperateForest"          Odds="7"/>
+    <TerrainAnomaly Name="Wetland"                  Odds="7"/>
+    <TerrainAnomaly Name="Grassland"                Odds="7"/>
+    <TerrainAnomaly Name="Prairie"                  Odds="7"/>
+    <TerrainAnomaly Name="HotPrairie"               Odds="7"/>
+    <TerrainAnomaly Name="RedSoil"                  Odds="7"/>
+    <TerrainAnomaly Name="RedRock"                  Odds="7"/>
+    <TerrainAnomaly Name="TropicalWetland"          Odds="7"/>
+    <TerrainAnomaly Name="PalmTrees"                Odds="7"/>
+    <TerrainAnomaly Name="TropicalDirtField"        Odds="7"/>
+    <TerrainAnomaly Name="TropicalMountainRock"     Odds="7"/>
+    <TerrainAnomaly Name="TropicalMountainForest"   Odds="7"/>
+    <TerrainAnomaly Name="Shrubland"                Odds="7"/>
+    <TerrainAnomaly Name="Savanna"                  Odds="7"/>
+    <TerrainAnomaly Name="DrySoil"                  Odds="7"/>
+    <TerrainAnomaly Name="Sandstone"                Odds="7"/>
+    <TerrainAnomaly Name="SandDunes"                Odds="7"/>
+    <TerrainAnomaly Name="SandstoneSwirls"          Odds="7"/>
+  </AnomalyOdds>
+
+
+
+  <!--============================================== ODDS BY TERRAIN FOR EACH ANOMALY ===========================================-->
+
+  <!--List of anomalies which cannot appear over a river hex-->
+  <NoRiverHexAnomalies>
+  </NoRiverHexAnomalies>
+
+  <!--The following list is used as reference for terrain anomalies-->
+  <!--To exist in the generator, a terrain anomaly must be mentioned here-->
+  <AnomalyWeights>
+
+    <!-- Common anomalies -->
+    <!-- BlackEarth -->
+    <!-- TO DO -->
+    <Anomaly Name="Anomaly1">
+      <PrevalenceInTerrain Name="TundraRocks"               Weight="4"/>
+      <PrevalenceInTerrain Name="TundraGrass"               Weight="4"/>
+      <PrevalenceInTerrain Name="TundraDirtField"           Weight="4"/>
+      <PrevalenceInTerrain Name="TundraRockyField"          Weight="4"/>
+      <PrevalenceInTerrain Name="TundraSnowyRockyField"     Weight="4"/>
+      <PrevalenceInTerrain Name="TundraSnowyField"          Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyField"                Weight="4"/>
+      <PrevalenceInTerrain Name="ColdDirtField"             Weight="4"/>
+      <PrevalenceInTerrain Name="ColdGrassland"             Weight="4"/>
+      <PrevalenceInTerrain Name="RockyField"                Weight="4"/>
+      <PrevalenceInTerrain Name="HighSnowyField"            Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyDirtField"            Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyRockyField"           Weight="4"/>
+      <PrevalenceInTerrain Name="Grassland"                 Weight="4"/>
+      <PrevalenceInTerrain Name="Prairie"                   Weight="4"/>
+      <PrevalenceInTerrain Name="HotPrairie"                Weight="4"/>
+      <PrevalenceInTerrain Name="RedSoil"                   Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalDirtField"         Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalMountainRock"      Weight="4"/>
+      <PrevalenceInTerrain Name="SandstoneSwirls"           Weight="4"/>
+    </Anomaly>
+
+    <!-- MineralRich -->
+    <Anomaly Name="Anomaly2">
+      <PrevalenceInTerrain Name="CrystalIce"                Weight="4"/>
+      <PrevalenceInTerrain Name="Snow"                      Weight="4"/>
+      <PrevalenceInTerrain Name="FrozenGrass"               Weight="4"/>
+      <PrevalenceInTerrain Name="TundraRocks"               Weight="4"/>
+      <PrevalenceInTerrain Name="TundraGrass"               Weight="4"/>
+      <PrevalenceInTerrain Name="TundraDirtField"           Weight="4"/>
+      <PrevalenceInTerrain Name="TundraRockyField"          Weight="4"/>
+      <PrevalenceInTerrain Name="TundraSnowyRockyField"     Weight="4"/>
+      <PrevalenceInTerrain Name="TundraSnowyField"          Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyField"                Weight="4"/>
+      <PrevalenceInTerrain Name="ColdDirtField"             Weight="4"/>
+      <PrevalenceInTerrain Name="ColdGrassland"             Weight="4"/>
+      <PrevalenceInTerrain Name="RockyField"                Weight="4"/>
+      <PrevalenceInTerrain Name="HighSnowyField"            Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyDirtField"            Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyRockyField"           Weight="4"/>
+      <PrevalenceInTerrain Name="Grassland"                 Weight="4"/>
+      <PrevalenceInTerrain Name="Prairie"                   Weight="4"/>
+      <PrevalenceInTerrain Name="HotPrairie"                Weight="4"/>
+      <PrevalenceInTerrain Name="RedSoil"                   Weight="4"/>
+      <PrevalenceInTerrain Name="RedRock"                   Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalDirtField"         Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalMountainRock"      Weight="4"/>
+      <PrevalenceInTerrain Name="DrySoil"                   Weight="4"/>
+      <PrevalenceInTerrain Name="Sandstone"                 Weight="4"/>
+      <PrevalenceInTerrain Name="SandDunes"                 Weight="4"/>
+      <PrevalenceInTerrain Name="SandstoneSwirls"           Weight="4"/>
+    </Anomaly>
+
+    <!-- CrystalFlowers -->
+    <Anomaly Name="Anomaly3">
+      <PrevalenceInTerrain Name="CrystalIce"                Weight="4"/>
+      <PrevalenceInTerrain Name="Snow"                      Weight="4"/>
+      <PrevalenceInTerrain Name="FrozenGrass"               Weight="4"/>
+      <PrevalenceInTerrain Name="FrozenSpikes"              Weight="4"/>
+      <PrevalenceInTerrain Name="CrystalForest"             Weight="4"/>
+      <PrevalenceInTerrain Name="CrystalField"              Weight="4"/>
+      <PrevalenceInTerrain Name="Taiga"                     Weight="4"/>
+      <PrevalenceInTerrain Name="TundraRocks"               Weight="4"/>
+      <PrevalenceInTerrain Name="TundraGrass"               Weight="4"/>
+      <PrevalenceInTerrain Name="TundraDirtField"           Weight="4"/>
+      <PrevalenceInTerrain Name="TundraRockyField"          Weight="4"/>
+      <PrevalenceInTerrain Name="TundraHighMountainForest"  Weight="4"/>
+      <PrevalenceInTerrain Name="TundraSnowyRockyField"     Weight="4"/>
+      <PrevalenceInTerrain Name="TundraSnowyField"          Weight="4"/>
+    </Anomaly>
+
+    <!-- MossPearls -->
+    <Anomaly Name="Anomaly5">
+      <PrevalenceInTerrain Name="Taiga"                     Weight="4"/>
+      <PrevalenceInTerrain Name="TundraRocks"               Weight="4"/>
+      <PrevalenceInTerrain Name="TundraGrass"               Weight="4"/>
+      <PrevalenceInTerrain Name="TundraDirtField"           Weight="4"/>
+      <PrevalenceInTerrain Name="TundraRockyField"          Weight="4"/>
+      <PrevalenceInTerrain Name="TundraHighMountainForest"  Weight="4"/>
+      <PrevalenceInTerrain Name="TundraSnowyRockyField"     Weight="4"/>
+      <PrevalenceInTerrain Name="TundraSnowyField"          Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyField"                Weight="4"/>
+      <PrevalenceInTerrain Name="ColdDirtField"             Weight="4"/>
+      <PrevalenceInTerrain Name="ColdGrassland"             Weight="4"/>
+      <PrevalenceInTerrain Name="RockyField"                Weight="4"/>
+      <PrevalenceInTerrain Name="ColdForest"                Weight="4"/>
+      <PrevalenceInTerrain Name="HighSnowyField"            Weight="4"/>
+      <PrevalenceInTerrain Name="HighMountainForest"        Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyDirtField"            Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyRockyField"           Weight="4"/>
+      <PrevalenceInTerrain Name="EnchantedForest"           Weight="4"/>
+      <PrevalenceInTerrain Name="TemperateForest"           Weight="4"/>
+      <PrevalenceInTerrain Name="Wetland"                   Weight="4"/>
+      <PrevalenceInTerrain Name="Grassland"                 Weight="4"/>
+      <PrevalenceInTerrain Name="Prairie"                   Weight="4"/>
+    </Anomaly>
+
+    <!-- Clay -->
+    <Anomaly Name="Anomaly6">
+      <PrevalenceInTerrain Name="TundraDirtField"           Weight="4"/>
+      <PrevalenceInTerrain Name="ColdDirtField"             Weight="4"/>
+      <PrevalenceInTerrain Name="ColdGrassland"             Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyDirtField"            Weight="4"/>
+      <PrevalenceInTerrain Name="Grassland"                 Weight="4"/>
+      <PrevalenceInTerrain Name="Prairie"                   Weight="4"/>
+      <PrevalenceInTerrain Name="HotPrairie"                Weight="4"/>
+    </Anomaly>
+
+    <!-- HiddenSprings -->
+    <Anomaly Name="Anomaly7">
+      <PrevalenceInTerrain Name="TundraRocks"               Weight="4"/>
+      <PrevalenceInTerrain Name="TundraGrass"               Weight="4"/>
+      <PrevalenceInTerrain Name="TundraDirtField"           Weight="4"/>
+      <PrevalenceInTerrain Name="TundraRockyField"          Weight="4"/>
+      <PrevalenceInTerrain Name="TundraSnowyRockyField"     Weight="4"/>
+      <PrevalenceInTerrain Name="TundraSnowyField"          Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyField"                Weight="4"/>
+      <PrevalenceInTerrain Name="ColdDirtField"             Weight="4"/>
+      <PrevalenceInTerrain Name="ColdGrassland"             Weight="4"/>
+      <PrevalenceInTerrain Name="RockyField"                Weight="4"/>
+      <PrevalenceInTerrain Name="HighSnowyField"            Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyDirtField"            Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyRockyField"           Weight="4"/>
+      <PrevalenceInTerrain Name="Grassland"                 Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalDirtField"         Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalMountainRock"      Weight="4"/>
+    </Anomaly>
+
+    <!-- AzoticExotics -->
+    <Anomaly Name="Anomaly8">
+      <PrevalenceInTerrain Name="Taiga"                     Weight="4"/>
+      <PrevalenceInTerrain Name="TundraGrass"               Weight="4"/>
+      <PrevalenceInTerrain Name="TundraDirtField"           Weight="4"/>
+      <PrevalenceInTerrain Name="TundraHighMountainForest"  Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyField"                Weight="4"/>
+      <PrevalenceInTerrain Name="ColdDirtField"             Weight="4"/>
+      <PrevalenceInTerrain Name="ColdGrassland"             Weight="4"/>
+      <PrevalenceInTerrain Name="ColdForest"                Weight="4"/>
+      <PrevalenceInTerrain Name="HighMountainForest"        Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyDirtField"            Weight="4"/>
+      <PrevalenceInTerrain Name="EnchantedForest"           Weight="4"/>
+      <PrevalenceInTerrain Name="Wetland"                   Weight="4"/>
+      <PrevalenceInTerrain Name="Grassland"                 Weight="4"/>
+      <PrevalenceInTerrain Name="HotPrairie"                Weight="4"/>
+      <PrevalenceInTerrain Name="RedSoil"                   Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalWetland"           Weight="4"/>
+      <PrevalenceInTerrain Name="PalmTrees"                 Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalDirtField"         Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalMountainForest"    Weight="4"/>
+    </Anomaly>
+
+    <!-- ChromaticLand -->
+    <Anomaly Name="Anomaly9">
+      <PrevalenceInTerrain Name="TundraRocks"               Weight="4"/>
+      <PrevalenceInTerrain Name="TundraGrass"               Weight="4"/>
+      <PrevalenceInTerrain Name="TundraDirtField"           Weight="4"/>
+      <PrevalenceInTerrain Name="TundraRockyField"          Weight="4"/>
+      <PrevalenceInTerrain Name="TundraSnowyRockyField"     Weight="4"/>
+      <PrevalenceInTerrain Name="TundraSnowyField"          Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyField"                Weight="4"/>
+      <PrevalenceInTerrain Name="ColdDirtField"             Weight="4"/>
+      <PrevalenceInTerrain Name="ColdGrassland"             Weight="4"/>
+      <PrevalenceInTerrain Name="RockyField"                Weight="4"/>
+      <PrevalenceInTerrain Name="HighSnowyField"            Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyDirtField"            Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyRockyField"           Weight="4"/>
+      <PrevalenceInTerrain Name="EnchantedForest"           Weight="4"/>
+      <PrevalenceInTerrain Name="Grassland"                 Weight="4"/>
+      <PrevalenceInTerrain Name="Prairie"                   Weight="4"/>
+      <PrevalenceInTerrain Name="HotPrairie"                Weight="4"/>
+      <PrevalenceInTerrain Name="RedSoil"                   Weight="4"/>
+      <PrevalenceInTerrain Name="RedRock"                   Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalDirtField"         Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalMountainRock"      Weight="4"/>
+    </Anomaly>
+
+    <!-- RumblingStones -->
+    <Anomaly Name="Anomaly10">
+      <PrevalenceInTerrain Name="TundraRocks"       Weight="4"/>
+      <PrevalenceInTerrain Name="ColdGrassland"     Weight="4"/>
+      <PrevalenceInTerrain Name="RockyField"        Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyRockyField"   Weight="4"/>
+      <PrevalenceInTerrain Name="Grassland"         Weight="4"/>
+      <PrevalenceInTerrain Name="Prairie"           Weight="4"/>
+      <PrevalenceInTerrain Name="HotPrairie"        Weight="4"/>
+      <PrevalenceInTerrain Name="RedSoil"           Weight="4"/>
+      <PrevalenceInTerrain Name="RedRock"           Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalDirtField" Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalMountainRock"   Weight="4"/>
+      <PrevalenceInTerrain Name="Shrubland"         Weight="4"/>
+      <PrevalenceInTerrain Name="DrySoil"           Weight="4"/>
+      <PrevalenceInTerrain Name="Sandstone"         Weight="4"/>
+      <PrevalenceInTerrain Name="SandDunes"         Weight="4"/>
+      <PrevalenceInTerrain Name="SandstoneSwirls"   Weight="4"/>
+    </Anomaly>
+
+    <!-- GeothermalPit -->
+    <Anomaly Name="Anomaly11">
+      <PrevalenceInTerrain Name="Grassland"         Weight="4"/>
+      <PrevalenceInTerrain Name="Prairie"           Weight="4"/>
+      <PrevalenceInTerrain Name="HotPrairie"        Weight="4"/>
+      <PrevalenceInTerrain Name="RedSoil"           Weight="4"/>
+      <PrevalenceInTerrain Name="RedRock"           Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalDirtField" Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalMountainRock"   Weight="4"/>
+      <PrevalenceInTerrain Name="Shrubland"         Weight="4"/>
+      <PrevalenceInTerrain Name="DrySoil"           Weight="4"/>
+      <PrevalenceInTerrain Name="Sandstone"         Weight="4"/>
+      <PrevalenceInTerrain Name="SandDunes"         Weight="4"/>
+      <PrevalenceInTerrain Name="SandstoneSwirls"   Weight="4"/>
+    </Anomaly>
+
+    <!-- SaltDesert -->
+    <Anomaly Name="Anomaly12">
+      <PrevalenceInTerrain Name="HotPrairie"        Weight="4"/>
+      <PrevalenceInTerrain Name="RedSoil"           Weight="4"/>
+      <PrevalenceInTerrain Name="RedRock"           Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalDirtField" Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalMountainRock"   Weight="4"/>
+      <PrevalenceInTerrain Name="Shrubland"         Weight="4"/>
+      <PrevalenceInTerrain Name="Savanna"           Weight="4"/>
+      <PrevalenceInTerrain Name="DrySoil"           Weight="4"/>
+      <PrevalenceInTerrain Name="Sandstone"         Weight="4"/>
+      <PrevalenceInTerrain Name="SandDunes"         Weight="4"/>
+      <PrevalenceInTerrain Name="SandstoneSwirls"   Weight="4"/>
+    </Anomaly>
+
+    <!-- Escaped Specimens -->
+    <Anomaly Name="Anomaly13">
+      <PrevalenceInTerrain Name="SnowyField"        Weight="4"/>
+      <PrevalenceInTerrain Name="ColdDirtField"     Weight="4"/>
+      <PrevalenceInTerrain Name="ColdGrassland"     Weight="4"/>
+      <PrevalenceInTerrain Name="RockyField"        Weight="4"/>
+      <PrevalenceInTerrain Name="ColdForest"        Weight="4"/>
+      <PrevalenceInTerrain Name="HighSnowyField"    Weight="4"/>
+      <PrevalenceInTerrain Name="HighMountainForest" Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyDirtField"    Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyRockyField"   Weight="4"/>
+      <PrevalenceInTerrain Name="EnchantedForest"   Weight="4"/>
+      <PrevalenceInTerrain Name="TemperateForest"   Weight="4"/>
+      <PrevalenceInTerrain Name="Wetland"           Weight="4"/>
+      <PrevalenceInTerrain Name="Grassland"         Weight="4"/>
+      <PrevalenceInTerrain Name="Prairie"           Weight="4"/>
+      <PrevalenceInTerrain Name="HotPrairie"        Weight="4"/>
+      <PrevalenceInTerrain Name="RedSoil"           Weight="4"/>
+      <PrevalenceInTerrain Name="RedRock"           Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalWetland"   Weight="4"/>
+      <PrevalenceInTerrain Name="PalmTrees"         Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalDirtField" Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalMountainRock"   Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalMountainForest" Weight="4"/>
+    </Anomaly>
+
+    <!-- Black Dust -->
+    <Anomaly Name="Anomaly14">
+      <PrevalenceInTerrain Name="CrystalIce"        Weight="4"/>
+      <PrevalenceInTerrain Name="Snow"              Weight="4"/>
+      <PrevalenceInTerrain Name="FrozenGrass"       Weight="4"/>
+      <PrevalenceInTerrain Name="FrozenSpikes"      Weight="4"/>
+      <PrevalenceInTerrain Name="CrystalForest"     Weight="4"/>
+      <PrevalenceInTerrain Name="CrystalField"      Weight="4"/>
+      <PrevalenceInTerrain Name="Taiga"             Weight="4"/>
+      <PrevalenceInTerrain Name="TundraRocks"       Weight="4"/>
+      <PrevalenceInTerrain Name="TundraGrass"       Weight="4"/>
+      <PrevalenceInTerrain Name="TundraDirtField"   Weight="4"/>
+      <PrevalenceInTerrain Name="TundraRockyField"  Weight="4"/>
+      <PrevalenceInTerrain Name="TundraHighMountainForest" Weight="4"/>
+      <PrevalenceInTerrain Name="TundraSnowyRockyField"    Weight="4"/>
+      <PrevalenceInTerrain Name="TundraSnowyField"  Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyField"        Weight="4"/>
+      <PrevalenceInTerrain Name="ColdDirtField"     Weight="4"/>
+      <PrevalenceInTerrain Name="ColdGrassland"     Weight="4"/>
+      <PrevalenceInTerrain Name="RockyField"        Weight="4"/>
+      <PrevalenceInTerrain Name="ColdForest"        Weight="4"/>
+      <PrevalenceInTerrain Name="HighSnowyField"    Weight="4"/>
+      <PrevalenceInTerrain Name="HighMountainForest" Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyDirtField"    Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyRockyField"   Weight="4"/>
+    </Anomaly>
+
+    <!-- Mutant Marsh -->
+    <Anomaly Name="Anomaly15">
+      <PrevalenceInTerrain Name="EnchantedForest"   Weight="4"/>
+      <PrevalenceInTerrain Name="TemperateForest"   Weight="4"/>
+      <PrevalenceInTerrain Name="Wetland"           Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalWetland"   Weight="4"/>
+      <PrevalenceInTerrain Name="PalmTrees"         Weight="4"/>
+    </Anomaly>
+
+    <!-- Igloo Larvae  -->
+    <Anomaly Name="Anomaly16">
+      <PrevalenceInTerrain Name="CrystalIce"        Weight="4"/>
+      <PrevalenceInTerrain Name="Snow"              Weight="4"/>
+      <PrevalenceInTerrain Name="FrozenGrass"       Weight="4"/>
+      <PrevalenceInTerrain Name="TundraRocks"       Weight="4"/>
+      <PrevalenceInTerrain Name="TundraGrass"       Weight="4"/>
+      <PrevalenceInTerrain Name="TundraDirtField"   Weight="4"/>
+      <PrevalenceInTerrain Name="TundraRockyField"  Weight="4"/>
+      <PrevalenceInTerrain Name="TundraSnowyRockyField"    Weight="4"/>
+      <PrevalenceInTerrain Name="TundraSnowyField"  Weight="4"/>
+    </Anomaly>
+
+    <!-- Ruby Cactus Fields -->
+    <Anomaly Name="Anomaly17">
+      <PrevalenceInTerrain Name="HotPrairie"        Weight="4"/>
+      <PrevalenceInTerrain Name="RedSoil"           Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalDirtField" Weight="4"/>
+      <PrevalenceInTerrain Name="Shrubland"         Weight="4"/>
+      <PrevalenceInTerrain Name="Savanna"           Weight="4"/>
+      <PrevalenceInTerrain Name="DrySoil"           Weight="4"/>
+      <PrevalenceInTerrain Name="SandDunes"         Weight="4"/>
+    </Anomaly>
+
+    <!-- MassiveTree -->
+    <Anomaly Name="Anomaly18">
+      <PrevalenceInTerrain Name="EnchantedForest"   Weight="4"/>
+      <PrevalenceInTerrain Name="TemperateForest"   Weight="4"/>
+      <PrevalenceInTerrain Name="HotPrairie"        Weight="4"/>
+      <PrevalenceInTerrain Name="RedSoil"           Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalWetland"   Weight="4"/>
+      <PrevalenceInTerrain Name="PalmTrees"         Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalDirtField" Weight="4"/>
+      <PrevalenceInTerrain Name="TropicalMountainForest" Weight="4"/>
+      <PrevalenceInTerrain Name="Shrubland"         Weight="4"/>
+      <PrevalenceInTerrain Name="Savanna"           Weight="4"/>
+    </Anomaly>
+
+    <!-- IceSculptures -->
+    <Anomaly Name="Anomaly20">
+      <PrevalenceInTerrain Name="CrystalIce"        Weight="4"/>
+      <PrevalenceInTerrain Name="Snow"              Weight="4"/>
+      <PrevalenceInTerrain Name="FrozenGrass"       Weight="4"/>
+      <PrevalenceInTerrain Name="FrozenSpikes"      Weight="4"/>
+      <PrevalenceInTerrain Name="CrystalForest"     Weight="4"/>
+      <PrevalenceInTerrain Name="CrystalField"      Weight="4"/>
+      <PrevalenceInTerrain Name="Taiga"             Weight="4"/>
+      <PrevalenceInTerrain Name="TundraRocks"       Weight="4"/>
+      <PrevalenceInTerrain Name="TundraGrass"       Weight="4"/>
+      <PrevalenceInTerrain Name="TundraDirtField"   Weight="4"/>
+      <PrevalenceInTerrain Name="TundraRockyField"  Weight="4"/>
+      <PrevalenceInTerrain Name="TundraHighMountainForest" Weight="4"/>
+      <PrevalenceInTerrain Name="TundraSnowyRockyField"    Weight="4"/>
+      <PrevalenceInTerrain Name="TundraSnowyField"  Weight="4"/>
+    </Anomaly>
+
+    <!-- Geysers -->
+    <Anomaly Name="Anomaly29">
+      <PrevalenceInTerrain Name="CrystalIce"        Weight="4"/>
+      <PrevalenceInTerrain Name="Snow"              Weight="4"/>
+      <PrevalenceInTerrain Name="FrozenGrass"       Weight="4"/>
+      <PrevalenceInTerrain Name="FrozenSpikes"      Weight="4"/>
+      <PrevalenceInTerrain Name="CrystalField"      Weight="4"/>
+      <PrevalenceInTerrain Name="TundraRocks"       Weight="4"/>
+      <PrevalenceInTerrain Name="TundraGrass"       Weight="4"/>
+      <PrevalenceInTerrain Name="TundraDirtField"   Weight="4"/>
+      <PrevalenceInTerrain Name="TundraRockyField"  Weight="4"/>
+      <PrevalenceInTerrain Name="TundraSnowyRockyField"    Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyField"        Weight="4"/>
+      <PrevalenceInTerrain Name="ColdDirtField"     Weight="4"/>
+      <PrevalenceInTerrain Name="ColdGrassland"     Weight="4"/>
+      <PrevalenceInTerrain Name="RockyField"        Weight="4"/>
+      <PrevalenceInTerrain Name="HighSnowyField"    Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyDirtField"    Weight="4"/>
+      <PrevalenceInTerrain Name="SnowyRockyField"   Weight="4"/>
+    </Anomaly>
+
+    <!-- Meteor Fields -->
+    <Anomaly Name="Anomaly52">
+      <PrevalenceInTerrain Name="CrystalForest"     Weight="4"/>
+      <PrevalenceInTerrain Name="Taiga"             Weight="4"/>
+      <PrevalenceInTerrain Name="TundraHighMountainForest" Weight="4"/>
+      <PrevalenceInTerrain Name="ColdForest"        Weight="4"/>
+      <PrevalenceInTerrain Name="HighMountainForest" Weight="4"/>
+    </Anomaly>
+
+    <!-- Northern Loam -->
+    <Anomaly Name="Anomaly53">
+      <PrevalenceInTerrain Name="CrystalIce"        Weight="1"/>
+      <PrevalenceInTerrain Name="Snow"              Weight="1"/>
+      <PrevalenceInTerrain Name="FrozenGrass"       Weight="1"/>
+      <PrevalenceInTerrain Name="FrozenSpikes"      Weight="1"/>
+      <PrevalenceInTerrain Name="CrystalForest"     Weight="1"/>
+      <PrevalenceInTerrain Name="CrystalField"      Weight="1"/>
+    </Anomaly>
+
+
+
+
+
+    <!-- Rare anomalies -->
+
+    <!-- LifeTree -->
+    <Anomaly Name="Anomaly19">
+      <PrevalenceInTerrain Name="Taiga"             Weight="8"/>
+      <PrevalenceInTerrain Name="TundraRocks"       Weight="8"/>
+      <PrevalenceInTerrain Name="TundraHighMountainForest" Weight="8"/>
+      <PrevalenceInTerrain Name="ColdForest"        Weight="8"/>
+      <PrevalenceInTerrain Name="HighMountainForest" Weight="8"/>
+      <PrevalenceInTerrain Name="EnchantedForest"   Weight="8"/>
+      <PrevalenceInTerrain Name="TemperateForest"   Weight="8"/>
+      <PrevalenceInTerrain Name="Wetland"           Weight="8"/>
+      <PrevalenceInTerrain Name="HotPrairie"        Weight="8"/>
+      <PrevalenceInTerrain Name="TropicalWetland"   Weight="8"/>
+      <PrevalenceInTerrain Name="PalmTrees"         Weight="8"/>
+      <PrevalenceInTerrain Name="TropicalDirtField" Weight="8"/>
+      <PrevalenceInTerrain Name="TropicalMountainForest" Weight="8"/>
+      <PrevalenceInTerrain Name="Shrubland"         Weight="8"/>
+      <PrevalenceInTerrain Name="Savanna"           Weight="8"/>
+    </Anomaly>
+
+    <!-- Steppe Soil -->
+    <Anomaly Name="Anomaly21">
+      <PrevalenceInTerrain Name="TundraRocks"       Weight="8"/>
+      <PrevalenceInTerrain Name="TundraGrass"       Weight="8"/>
+      <PrevalenceInTerrain Name="Prairie"           Weight="8"/>
+      <PrevalenceInTerrain Name="HotPrairie"        Weight="8"/>
+      <PrevalenceInTerrain Name="RedSoil"           Weight="8"/>
+      <PrevalenceInTerrain Name="RedRock"           Weight="8"/>
+      <PrevalenceInTerrain Name="TropicalDirtField" Weight="8"/>
+      <PrevalenceInTerrain Name="TropicalMountainRock"   Weight="8"/>
+      <PrevalenceInTerrain Name="Shrubland"         Weight="8"/>
+      <PrevalenceInTerrain Name="Savanna"           Weight="8"/>
+      <PrevalenceInTerrain Name="DrySoil"           Weight="8"/>
+      <PrevalenceInTerrain Name="Sandstone"         Weight="8"/>
+      <PrevalenceInTerrain Name="SandstoneSwirls"   Weight="8"/>
+    </Anomaly>
+
+    <!-- EarthTower -->
+    <Anomaly Name="Anomaly22">
+      <PrevalenceInTerrain Name="TundraRocks"       Weight="8"/>
+      <PrevalenceInTerrain Name="TundraGrass"       Weight="8"/>
+      <PrevalenceInTerrain Name="TundraDirtField"   Weight="8"/>
+      <PrevalenceInTerrain Name="TundraRockyField"  Weight="8"/>
+      <PrevalenceInTerrain Name="TundraSnowyRockyField"    Weight="8"/>
+      <PrevalenceInTerrain Name="SnowyField"        Weight="8"/>
+      <PrevalenceInTerrain Name="ColdDirtField"     Weight="8"/>
+      <PrevalenceInTerrain Name="ColdGrassland"     Weight="8"/>
+      <PrevalenceInTerrain Name="RockyField"        Weight="8"/>
+      <PrevalenceInTerrain Name="HighSnowyField"    Weight="8"/>
+      <PrevalenceInTerrain Name="SnowyDirtField"    Weight="8"/>
+      <PrevalenceInTerrain Name="SnowyRockyField"   Weight="8"/>
+      <PrevalenceInTerrain Name="Grassland"         Weight="8"/>
+      <PrevalenceInTerrain Name="Prairie"           Weight="8"/>
+      <PrevalenceInTerrain Name="HotPrairie"        Weight="8"/>
+      <PrevalenceInTerrain Name="RedSoil"           Weight="8"/>
+      <PrevalenceInTerrain Name="RedRock"           Weight="8"/>
+      <PrevalenceInTerrain Name="TropicalDirtField" Weight="8"/>
+      <PrevalenceInTerrain Name="TropicalMountainRock"   Weight="8"/>
+    </Anomaly>
+
+    <!-- Botanical Garden -->
+    <Anomaly Name="Anomaly23">
+      <PrevalenceInTerrain Name="TundraGrass"       Weight="8"/>
+      <PrevalenceInTerrain Name="TundraDirtField"   Weight="8"/>
+      <PrevalenceInTerrain Name="SnowyField"        Weight="8"/>
+      <PrevalenceInTerrain Name="ColdDirtField"     Weight="8"/>
+      <PrevalenceInTerrain Name="ColdGrassland"     Weight="8"/>
+      <PrevalenceInTerrain Name="SnowyDirtField"    Weight="8"/>
+      <PrevalenceInTerrain Name="Grassland"         Weight="8"/>
+      <PrevalenceInTerrain Name="Prairie"           Weight="8"/>
+      <PrevalenceInTerrain Name="HotPrairie"        Weight="8"/>
+      <PrevalenceInTerrain Name="TropicalDirtField" Weight="8"/>
+    </Anomaly>
+
+    <!-- Steel Stalks -->
+    <Anomaly Name="Anomaly24">
+      <PrevalenceInTerrain Name="TundraRocks"       Weight="8"/>
+      <PrevalenceInTerrain Name="TundraGrass"       Weight="8"/>
+      <PrevalenceInTerrain Name="TundraDirtField"   Weight="8"/>
+      <PrevalenceInTerrain Name="TundraRockyField"  Weight="8"/>
+      <PrevalenceInTerrain Name="TundraSnowyRockyField"    Weight="8"/>
+      <PrevalenceInTerrain Name="TundraSnowyField"  Weight="8"/>
+      <PrevalenceInTerrain Name="SnowyField"        Weight="8"/>
+      <PrevalenceInTerrain Name="ColdDirtField"     Weight="8"/>
+      <PrevalenceInTerrain Name="ColdGrassland"     Weight="8"/>
+      <PrevalenceInTerrain Name="RockyField"        Weight="8"/>
+      <PrevalenceInTerrain Name="HighSnowyField"    Weight="8"/>
+      <PrevalenceInTerrain Name="SnowyDirtField"    Weight="8"/>
+      <PrevalenceInTerrain Name="SnowyRockyField"   Weight="8"/>
+      <PrevalenceInTerrain Name="Grassland"         Weight="8"/>
+      <PrevalenceInTerrain Name="Prairie"           Weight="8"/>
+      <PrevalenceInTerrain Name="HotPrairie"        Weight="8"/>
+      <PrevalenceInTerrain Name="RedSoil"           Weight="8"/>
+      <PrevalenceInTerrain Name="RedRock"           Weight="8"/>
+      <PrevalenceInTerrain Name="TropicalDirtField" Weight="8"/>
+      <PrevalenceInTerrain Name="TropicalMountainRock"   Weight="8"/>
+    </Anomaly>
+
+    <!-- Weaver Worms -->
+    <Anomaly Name="Anomaly25">
+      <PrevalenceInTerrain Name="CrystalIce"        Weight="8"/>
+      <PrevalenceInTerrain Name="Snow"              Weight="8"/>
+      <PrevalenceInTerrain Name="FrozenGrass"       Weight="8"/>
+      <PrevalenceInTerrain Name="TundraRocks"       Weight="8"/>
+      <PrevalenceInTerrain Name="TundraGrass"       Weight="8"/>
+      <PrevalenceInTerrain Name="TundraDirtField"   Weight="8"/>
+      <PrevalenceInTerrain Name="TundraRockyField"  Weight="8"/>
+      <PrevalenceInTerrain Name="TundraSnowyRockyField"    Weight="8"/>
+      <PrevalenceInTerrain Name="TundraSnowyField"  Weight="8"/>
+      <PrevalenceInTerrain Name="SnowyField"        Weight="8"/>
+      <PrevalenceInTerrain Name="HighSnowyField"    Weight="8"/>
+    </Anomaly>
+
+    <!-- StasisPillar -->
+    <Anomaly Name="Anomaly26">
+      <PrevalenceInTerrain Name="CrystalIce"        Weight="10"/>
+      <PrevalenceInTerrain Name="Snow"              Weight="10"/>
+      <PrevalenceInTerrain Name="FrozenGrass"       Weight="10"/>
+      <PrevalenceInTerrain Name="FrozenSpikes"      Weight="10"/>
+      <PrevalenceInTerrain Name="CrystalForest"     Weight="10"/>
+      <PrevalenceInTerrain Name="CrystalField"      Weight="10"/>
+      <PrevalenceInTerrain Name="Taiga"             Weight="10"/>
+      <PrevalenceInTerrain Name="TundraRocks"       Weight="10"/>
+      <PrevalenceInTerrain Name="TundraGrass"       Weight="10"/>
+      <PrevalenceInTerrain Name="TundraDirtField"   Weight="10"/>
+      <PrevalenceInTerrain Name="TundraRockyField"  Weight="10"/>
+      <PrevalenceInTerrain Name="TundraHighMountainForest" Weight="10"/>
+      <PrevalenceInTerrain Name="TundraSnowyRockyField"    Weight="10"/>
+      <PrevalenceInTerrain Name="TundraSnowyField"  Weight="10"/>
+      <PrevalenceInTerrain Name="SnowyField"        Weight="10"/>
+      <PrevalenceInTerrain Name="ColdDirtField"     Weight="10"/>
+      <PrevalenceInTerrain Name="ColdGrassland"     Weight="10"/>
+      <PrevalenceInTerrain Name="RockyField"        Weight="10"/>
+      <PrevalenceInTerrain Name="ColdForest"        Weight="10"/>
+      <PrevalenceInTerrain Name="HighSnowyField"    Weight="10"/>
+      <PrevalenceInTerrain Name="HighMountainForest" Weight="10"/>
+      <PrevalenceInTerrain Name="SnowyDirtField"    Weight="10"/>
+      <PrevalenceInTerrain Name="SnowyRockyField"   Weight="10"/>
+      <PrevalenceInTerrain Name="RedRock"           Weight="10"/>
+      <PrevalenceInTerrain Name="TropicalDirtField" Weight="10"/>
+      <PrevalenceInTerrain Name="TropicalMountainRock"   Weight="10"/>
+      <PrevalenceInTerrain Name="TropicalMountainForest" Weight="10"/>
+      <PrevalenceInTerrain Name="SandstoneSwirls"   Weight="10"/>
+    </Anomaly>
+
+    <!-- Earthspine -->
+    <Anomaly Name="Anomaly27">
+      <PrevalenceInTerrain Name="Taiga"             Weight="10"/>
+      <PrevalenceInTerrain Name="TundraRocks"       Weight="10"/>
+      <PrevalenceInTerrain Name="TundraGrass"       Weight="10"/>
+      <PrevalenceInTerrain Name="TundraDirtField"   Weight="10"/>
+      <PrevalenceInTerrain Name="TundraRockyField"  Weight="10"/>
+      <PrevalenceInTerrain Name="TundraHighMountainForest" Weight="10"/>
+      <PrevalenceInTerrain Name="TundraSnowyRockyField"    Weight="10"/>
+      <PrevalenceInTerrain Name="TundraSnowyField"  Weight="10"/>
+      <PrevalenceInTerrain Name="SnowyField"        Weight="10"/>
+      <PrevalenceInTerrain Name="ColdDirtField"     Weight="10"/>
+      <PrevalenceInTerrain Name="ColdGrassland"     Weight="10"/>
+      <PrevalenceInTerrain Name="RockyField"        Weight="10"/>
+      <PrevalenceInTerrain Name="ColdForest"        Weight="10"/>
+      <PrevalenceInTerrain Name="HighSnowyField"    Weight="10"/>
+      <PrevalenceInTerrain Name="HighMountainForest" Weight="10"/>
+      <PrevalenceInTerrain Name="SnowyDirtField"    Weight="10"/>
+      <PrevalenceInTerrain Name="SnowyRockyField"   Weight="10"/>
+      <PrevalenceInTerrain Name="EnchantedForest"   Weight="10"/>
+      <PrevalenceInTerrain Name="TemperateForest"   Weight="10"/>
+      <PrevalenceInTerrain Name="Wetland"           Weight="10"/>
+      <PrevalenceInTerrain Name="Grassland"         Weight="10"/>
+      <PrevalenceInTerrain Name="Prairie"           Weight="10"/>
+      <PrevalenceInTerrain Name="HotPrairie"        Weight="10"/>
+      <PrevalenceInTerrain Name="RedRock"           Weight="10"/>
+      <PrevalenceInTerrain Name="TropicalWetland"   Weight="10"/>
+      <PrevalenceInTerrain Name="PalmTrees"         Weight="10"/>
+      <PrevalenceInTerrain Name="TropicalDirtField" Weight="10"/>
+      <PrevalenceInTerrain Name="TropicalMountainRock"   Weight="10"/>
+      <PrevalenceInTerrain Name="TropicalMountainForest" Weight="10"/>
+      <PrevalenceInTerrain Name="Shrubland"         Weight="10"/>
+      <PrevalenceInTerrain Name="Savanna"           Weight="10"/>
+      <PrevalenceInTerrain Name="SandstoneSwirls"   Weight="10"/>
+    </Anomaly>
+
+    <!-- SpiralRockPeel -->
+    <Anomaly Name="Anomaly28">
+      <PrevalenceInTerrain Name="TundraRocks"       Weight="8"/>
+      <PrevalenceInTerrain Name="TundraGrass"       Weight="8"/>
+      <PrevalenceInTerrain Name="TundraDirtField"   Weight="8"/>
+      <PrevalenceInTerrain Name="TundraRockyField"  Weight="8"/>
+      <PrevalenceInTerrain Name="TundraSnowyRockyField"    Weight="8"/>
+      <PrevalenceInTerrain Name="TundraSnowyField"  Weight="8"/>
+      <PrevalenceInTerrain Name="SnowyField"        Weight="8"/>
+      <PrevalenceInTerrain Name="ColdDirtField"     Weight="8"/>
+      <PrevalenceInTerrain Name="ColdGrassland"     Weight="8"/>
+      <PrevalenceInTerrain Name="RockyField"        Weight="8"/>
+      <PrevalenceInTerrain Name="HighSnowyField"    Weight="8"/>
+      <PrevalenceInTerrain Name="SnowyDirtField"    Weight="8"/>
+      <PrevalenceInTerrain Name="SnowyRockyField"   Weight="8"/>
+      <PrevalenceInTerrain Name="Grassland"         Weight="8"/>
+      <PrevalenceInTerrain Name="Prairie"           Weight="8"/>
+      <PrevalenceInTerrain Name="HotPrairie"        Weight="8"/>
+      <PrevalenceInTerrain Name="RedSoil"           Weight="8"/>
+      <PrevalenceInTerrain Name="RedRock"           Weight="8"/>
+      <PrevalenceInTerrain Name="TropicalDirtField" Weight="8"/>
+      <PrevalenceInTerrain Name="TropicalMountainRock"   Weight="8"/>
+      <PrevalenceInTerrain Name="DrySoil"           Weight="8"/>
+      <PrevalenceInTerrain Name="Sandstone"         Weight="8"/>
+      <PrevalenceInTerrain Name="SandstoneSwirls"   Weight="8"/>
+    </Anomaly>
+
+    <!-- Mychordia -->
+    <Anomaly Name="Anomaly30">
+      <PrevalenceInTerrain Name="Taiga"             Weight="8"/>
+      <PrevalenceInTerrain Name="TundraRocks"       Weight="8"/>
+      <PrevalenceInTerrain Name="TundraGrass"       Weight="8"/>
+      <PrevalenceInTerrain Name="TundraDirtField"   Weight="8"/>
+      <PrevalenceInTerrain Name="TundraRockyField"  Weight="8"/>
+      <PrevalenceInTerrain Name="TundraHighMountainForest" Weight="8"/>
+      <PrevalenceInTerrain Name="TundraSnowyRockyField"    Weight="8"/>
+      <PrevalenceInTerrain Name="SnowyField"        Weight="8"/>
+      <PrevalenceInTerrain Name="ColdDirtField"     Weight="8"/>
+      <PrevalenceInTerrain Name="ColdGrassland"     Weight="8"/>
+      <PrevalenceInTerrain Name="RockyField"        Weight="8"/>
+      <PrevalenceInTerrain Name="ColdForest"        Weight="8"/>
+      <PrevalenceInTerrain Name="HighMountainForest" Weight="8"/>
+      <PrevalenceInTerrain Name="SnowyDirtField"    Weight="8"/>
+      <PrevalenceInTerrain Name="SnowyRockyField"   Weight="8"/>
+      <PrevalenceInTerrain Name="EnchantedForest"   Weight="8"/>
+      <PrevalenceInTerrain Name="TemperateForest"   Weight="8"/>
+      <PrevalenceInTerrain Name="Wetland"           Weight="8"/>
+      <PrevalenceInTerrain Name="HotPrairie"        Weight="8"/>
+      <PrevalenceInTerrain Name="RedSoil"           Weight="8"/>
+      <PrevalenceInTerrain Name="RedRock"           Weight="8"/>
+      <PrevalenceInTerrain Name="TropicalWetland"   Weight="8"/>
+      <PrevalenceInTerrain Name="PalmTrees"         Weight="8"/>
+      <PrevalenceInTerrain Name="TropicalDirtField" Weight="8"/>
+      <PrevalenceInTerrain Name="TropicalMountainRock"   Weight="8"/>
+      <PrevalenceInTerrain Name="TropicalMountainForest" Weight="8"/>
+    </Anomaly>
+
+    <!-- WizardStone -->
+    <Anomaly Name="Anomaly34">
+      <PrevalenceInTerrain Name="CrystalIce"        Weight="10"/>
+      <PrevalenceInTerrain Name="Snow"              Weight="10"/>
+      <PrevalenceInTerrain Name="FrozenGrass"       Weight="10"/>
+      <PrevalenceInTerrain Name="FrozenSpikes"      Weight="10"/>
+      <PrevalenceInTerrain Name="CrystalForest"     Weight="10"/>
+      <PrevalenceInTerrain Name="CrystalField"      Weight="10"/>
+      <PrevalenceInTerrain Name="TundraDirtField"   Weight="10"/>
+      <PrevalenceInTerrain Name="TundraRockyField"  Weight="10"/>
+      <PrevalenceInTerrain Name="TundraHighMountainForest" Weight="10"/>
+      <PrevalenceInTerrain Name="TundraSnowyRockyField"    Weight="10"/>
+      <PrevalenceInTerrain Name="TundraSnowyField"  Weight="10"/>
+      <PrevalenceInTerrain Name="SnowyField"        Weight="10"/>
+      <PrevalenceInTerrain Name="ColdDirtField"     Weight="10"/>
+      <PrevalenceInTerrain Name="ColdGrassland"     Weight="10"/>
+      <PrevalenceInTerrain Name="RockyField"        Weight="10"/>
+      <PrevalenceInTerrain Name="ColdForest"        Weight="10"/>
+      <PrevalenceInTerrain Name="HighSnowyField"    Weight="10"/>
+      <PrevalenceInTerrain Name="HighMountainForest" Weight="10"/>
+      <PrevalenceInTerrain Name="SnowyDirtField"    Weight="10"/>
+      <PrevalenceInTerrain Name="SnowyRockyField"   Weight="10"/>
+      <PrevalenceInTerrain Name="EnchantedForest"   Weight="10"/>
+      <PrevalenceInTerrain Name="TemperateForest"   Weight="10"/>
+      <PrevalenceInTerrain Name="Wetland"           Weight="10"/>
+      <PrevalenceInTerrain Name="Grassland"         Weight="10"/>
+      <PrevalenceInTerrain Name="Prairie"           Weight="10"/>
+      <PrevalenceInTerrain Name="HotPrairie"        Weight="10"/>
+      <PrevalenceInTerrain Name="RedSoil"           Weight="10"/>
+      <PrevalenceInTerrain Name="RedRock"           Weight="10"/>
+      <PrevalenceInTerrain Name="TropicalWetland"   Weight="10"/>
+      <PrevalenceInTerrain Name="PalmTrees"         Weight="10"/>
+      <PrevalenceInTerrain Name="TropicalDirtField" Weight="10"/>
+      <PrevalenceInTerrain Name="TropicalMountainRock"   Weight="10"/>
+      <PrevalenceInTerrain Name="TropicalMountainForest" Weight="10"/>
+      <PrevalenceInTerrain Name="Shrubland"         Weight="10"/>
+      <PrevalenceInTerrain Name="Savanna"           Weight="10"/>
+      <PrevalenceInTerrain Name="DrySoil"           Weight="10"/>
+      <PrevalenceInTerrain Name="Sandstone"         Weight="10"/>
+      <PrevalenceInTerrain Name="SandDunes"         Weight="10"/>
+      <PrevalenceInTerrain Name="SandstoneSwirls"   Weight="10"/>
+    </Anomaly>
+
+    <!-- DragonTree -->
+    <Anomaly Name="Anomaly36">
+      <PrevalenceInTerrain Name="EnchantedForest"   Weight="8"/>
+      <PrevalenceInTerrain Name="Prairie"           Weight="8"/>
+      <PrevalenceInTerrain Name="HotPrairie"        Weight="8"/>
+      <PrevalenceInTerrain Name="RedSoil"           Weight="8"/>
+      <PrevalenceInTerrain Name="RedRock"           Weight="8"/>
+      <PrevalenceInTerrain Name="TropicalDirtField" Weight="8"/>
+      <PrevalenceInTerrain Name="TropicalMountainRock"   Weight="8"/>
+      <PrevalenceInTerrain Name="Shrubland"         Weight="8"/>
+      <PrevalenceInTerrain Name="Savanna"           Weight="8"/>
+    </Anomaly>
+
+    <!-- Oasis -->
+    <Anomaly Name="Anomaly39">
+      <PrevalenceInTerrain Name="HotPrairie"        Weight="8"/>
+      <PrevalenceInTerrain Name="RedRock"           Weight="8"/>
+      <PrevalenceInTerrain Name="PalmTrees"         Weight="8"/>
+      <PrevalenceInTerrain Name="TropicalDirtField" Weight="8"/>
+      <PrevalenceInTerrain Name="TropicalMountainRock"   Weight="8"/>
+      <PrevalenceInTerrain Name="Shrubland"         Weight="8"/>
+      <PrevalenceInTerrain Name="Savanna"           Weight="8"/>
+      <PrevalenceInTerrain Name="DrySoil"           Weight="8"/>
+      <PrevalenceInTerrain Name="Sandstone"         Weight="8"/>
+      <PrevalenceInTerrain Name="SandDunes"         Weight="8"/>
+      <PrevalenceInTerrain Name="SandstoneSwirls"   Weight="8"/>
+    </Anomaly>
+
+
+    <!-- Unique anomalies -->
+    <!-- GoldenTree -->
+    <Anomaly Name="Anomaly43" Quantity="10">
+      <PrevalenceInTerrain Name="CrystalForest"     Weight="10"/>
+      <PrevalenceInTerrain Name="Taiga"             Weight="10"/>
+      <PrevalenceInTerrain Name="TundraHighMountainForest" Weight="10"/>
+      <PrevalenceInTerrain Name="ColdForest"        Weight="10"/>
+      <PrevalenceInTerrain Name="HighMountainForest" Weight="10"/>
+      <PrevalenceInTerrain Name="EnchantedForest"   Weight="10"/>
+      <PrevalenceInTerrain Name="TemperateForest"   Weight="10"/>
+      <PrevalenceInTerrain Name="Wetland"           Weight="10"/>
+      <PrevalenceInTerrain Name="TropicalWetland"   Weight="10"/>
+      <PrevalenceInTerrain Name="PalmTrees"         Weight="10"/>
+      <PrevalenceInTerrain Name="TropicalMountainForest" Weight="10"/>
+      <PrevalenceInTerrain Name="Shrubland"         Weight="10"/>
+      <PrevalenceInTerrain Name="Savanna"           Weight="10"/>
+    </Anomaly>
+
+  </AnomalyWeights>
+
+
+
+  <!--============================================== CLIMATE ODDS BY PLANET TYPE ===========================================-->
+
+  <GlobalClimates>
+    <!--Prevalence indicates the surface taken by each climate relative to the others-->
+    <!--It is comparable in principle to a Weight but is not randomly used-->
+    <GlobalClimate Name="PlanetArctic" Id="0">
+      <Climate Name="Freezing"  Prevalence="35"/>
+      <Climate Name="Cold"      Prevalence="30"/>
+      <Climate Name="Chilly"    Prevalence="30"/>
+      <Climate Name="Mild"      Prevalence="5"/>
+      <!--<Climate Name="Warm"      Prevalence="2"/>-->
+      <!--<Climate Name="Hot"       Prevalence="1"/>-->
+    </GlobalClimate>
+    <GlobalClimate Name="PlanetTundra" Id="1">
+      <Climate Name="Freezing"  Prevalence="15"/>
+      <Climate Name="Cold"      Prevalence="30"/>
+      <Climate Name="Chilly"    Prevalence="35"/>
+      <Climate Name="Mild"      Prevalence="15"/>
+      <Climate Name="WarmArid"  Prevalence="5"/>
+      <!--<Climate Name="Hot"       Prevalence="5"/>-->
+    </GlobalClimate>
+    <GlobalClimate Name="PlanetTerran" Id="2">
+      <Climate Name="Freezing"  Prevalence="2"/>
+      <Climate Name="Cold"      Prevalence="7"/>
+      <Climate Name="Chilly"    Prevalence="15"/>
+      <Climate Name="Mild"      Prevalence="20"/>
+      <Climate Name="Warm"      Prevalence="15"/>
+      <Climate Name="Hot"       Prevalence="7"/>
+    </GlobalClimate>
+    <GlobalClimate Name="PlanetArid" Id="3">
+      <!--<Climate Name="Freezing"  Prevalence="4"/>-->
+      <Climate Name="Cold"      Prevalence="10"/>
+      <Climate Name="Chilly"    Prevalence="15"/>
+      <Climate Name="Mild"      Prevalence="10"/>
+      <Climate Name="Warm"      Prevalence="15"/>
+      <Climate Name="WarmArid"  Prevalence="7"/>
+      <Climate Name="Hot"       Prevalence="30"/>
+    </GlobalClimate>
+    <GlobalClimate Name="PlanetDesert" Id="4">
+      <!--<Climate Name="Freezing"  Prevalence="1"/>-->
+      <Climate Name="Cold"      Prevalence="5"/>
+      <Climate Name="Chilly"    Prevalence="10"/>
+      <Climate Name="Mild"      Prevalence="5"/>
+      <Climate Name="WarmArid"  Prevalence="30"/>
+      <Climate Name="Hot"       Prevalence="50"/>
+    </GlobalClimate>
+  </GlobalClimates>
+
+
+  <!--============================================== POI DISTRIBUTION ===========================================-->
+
+  <MaxResourcesPerRegion>9</MaxResourcesPerRegion>
+  <MaxDifferentLuxuryTypes>999</MaxDifferentLuxuryTypes>
+  <StrategicResourcesAbundancePercent>200</StrategicResourcesAbundancePercent>
+  <LuxuryResourcesAbundancePercent>200</LuxuryResourcesAbundancePercent>
+
+  <!--ExclusionRadius : excludes all other elements of these algorithms from being generated inside that radius -->
+  <POIAlgorithmParameters>
+    
+    <Algorithm Name="DistributeStrategicResources">
+      <Parameter Name="ExclusionRadius"         Value="1"/>
+      <Parameter Name="MapSizeSensitivity"      Value="50"/>
+      <Parameter Name="EmpireCountSensitivity"  Value="50"/>
+    </Algorithm>
+
+    <Algorithm Name="DistributeLuxuryResources">
+      <Parameter Name="ExclusionRadius"         Value="1"/>
+      <Parameter Name="OverallQuantity"         Value="90"/>
+      <Parameter Name="MapSizeSensitivity"      Value="100"/>
+      <Parameter Name="EmpireCountSensitivity"  Value="0"/>
+      <Parameter Name="Clustering"              Value="6"/>
+      <Parameter Name="ClusterPopulationCap"    Value="3"/>
+    </Algorithm>
+
+    <Algorithm Name="DistributeVillages">
+      <Parameter Name="ExclusionRadius"         Value="1"/>
+      <Parameter Name="MinSitesPerEmptyRegion"  Value="5"/>
+      <Parameter Name="MaxSitesPerEmptyRegion"  Value="5"/>
+      <Parameter Name="MinSitesPerSpawnRegion"  Value="5"/>
+      <Parameter Name="MaxSitesPerSpawnRegion"  Value="5"/>
+    </Algorithm>
+
+    <Algorithm Name="DistributeWatchTowers">
+      <Parameter Name="ExclusionRadius"         Value="1"/>
+      <Parameter Name="MinSitesPerRegion"       Value="2"/>
+      <Parameter Name="MaxSitesPerRegion"       Value="4"/>
+      <Parameter Name="TowerDistanceWeight"     Value="30"/>
+      <Parameter Name="ElevationWeight"         Value="4"/>
+      <Parameter Name="RegionBorderWeight"      Value="16"/>
+      <Parameter Name="PeakWeight"              Value="1"/>
+    </Algorithm>
+
+    <Algorithm Name="DistributeQuestLocations">
+      <Parameter Name="MinSitesPerRegion"       Value="5"/>
+      <Parameter Name="MaxSitesPerRegion"       Value="5"/>
+    </Algorithm>
+
+    <Algorithm Name="DistributeOceanicCitadels">
+      <Parameter Name="MaxSitesPerRegion"       Value="4"/>
+      <Parameter Name="MinSitesPerRegion"       Value="3"/>
+      <Parameter Name="FortressesPerValidOceanRegionPercent" Value="150"/>
+      <Parameter Name="ExecuteFirstPass"        Value="0"/>
+      <Parameter Name="AttractSecondCitadel"    Value="100"/>
+      <Parameter Name="ValidOceanMinRadius"     Value="2"/>
+      <Parameter Name="MinLandNeighbours"       Value="0"/>
+      <Parameter Name="MinOceanNeighbours"      Value="0"/>
+      
+      <!--Inject some randomness when sorting oceans by size-->
+      <Parameter Name="RandomSpreadPercent"		  Value="0"/>
+      
+      <!--How strong fortresses repulse each other-->
+      <Parameter Name="FortressProxWeight"		  Value="26"/>
+      <!--How strong frontiers repulse fortresses-->
+      <Parameter Name="FrontierProxWeight"		  Value="12"/>
+      <!--How strong frontiers repulse fortresses-->
+      <Parameter Name="SailDistanceWeight"		  Value="14"/>
+      <Parameter Name="WastelandProxWeight"		  Value="6"/>
+      
+      <!-- Ocean attractiveness 
+      <Parameter Name="ContinentWeight"         Value="0"/>
+      <Parameter Name="OceanWeight"             Value="0"/>
+      <Parameter Name="LandRegionWeight"        Value="0"/>
+      <Parameter Name="SizeWeight"              Value="1"/>
+      <Parameter Name="FortressWeight"          Value="-50"/>
+      -->
+    </Algorithm>
+
+    <Algorithm Name="DistributeUniqueFacilities">
+      <!-- Number of citadels per unique -->
+      <Parameter Name="CitadelOdds"             Value="3"/>
+    </Algorithm>
+    
+    <Algorithm Name="DistributeStrategicFacilities">
+      <!-- Defines the maximum number of strategic resource facilities that will be generated: 2 => 2 x NumberOfFortresses -->
+      <Parameter Name="AveragedMaxFacilitiesPerCitadel"    Value="120"/>
+      <!-- The higher these values are the fewer resources are moved -->
+      <Parameter Name="MovedTier1"              Value="360"/>
+      <Parameter Name="MovedTier2"              Value="216"/>
+      <Parameter Name="MovedTier3"              Value="126"/>
+    </Algorithm>
+
+    <Algorithm Name="DistributeLuxuryFacilities">
+      <!-- Defines the maximum number of luxury resource facilities that will be generated: 2 => 2 x NumberOfFortresses -->
+      <Parameter Name="AveragedMaxFacilitiesPerCitadel"    Value="120"/>
+      <!-- The higher these values are the fewer resources are moved -->
+      <Parameter Name="MovedTier1"              Value="180"/>
+      <Parameter Name="MovedTier2"              Value="234"/>
+      <Parameter Name="MovedTier3"              Value="360"/>
+    </Algorithm>
+
+    <!--RNG tries NumberOfTries with a d100 against InitialSpawnPercent / (2 ^ currentTryIndex)-->
+    <Algorithm Name="DistributeSunkenRuins">
+      <!--Parameter Name="NumberOfTries"           Value="3"/-->
+      <!-- Number of sunken ruins per ocean (130 = x1.3) -->
+      <!--Parameter Name="InitialSpawnPercent"     Value="130"/-->
+      <Parameter Name="MinOceanSizeToSpawnRuin"         Value="10"/>
+      
+      <Parameter Name="MinSitesPerRegion"               Value="3"/>
+      <Parameter Name="MinSitesPerRegionWithFortress"   Value="4"/>
+      <Parameter Name="MaxSitesPerRegion"               Value="5"/>
+      
+      <Parameter Name="CoastProxWeight"                 Value="0"/>
+      <Parameter Name="FortProxWeight"                  Value="0"/>
+      <Parameter Name="FrontierProxWeight"              Value="0"/>
+      <Parameter Name="OtherRuinProxWeight"             Value="0"/>
+      
+      <Parameter Name="RandomSpread"                    Value="0"/>
+    </Algorithm>
+
+  </POIAlgorithmParameters>
+</WorldGeneratorSettings>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SimulationDescriptor Name="PointOfInterestTypeVillage"         Type="PointOfInterestType">
+    <SimulationPropertyDescriptors>
+      <SimulationPropertyDescriptor Name="Interact_OddsTriggeringAQuest" BaseValue="100"/>
+      <SimulationPropertyDescriptor Name="PopulationBonus"/>
+      <SimulationPropertyDescriptor Name="GlobalLeachModifier" BaseValue="1"/>
+      <SimulationPropertyDescriptor Name="ConvertedVillageUnitProductionTimer" BaseValue="10" />
+
+      <SimulationPropertyDescriptor Name="InGarrisonRegenModifier" BaseValue="0"/>
+    </SimulationPropertyDescriptors>
+  </SimulationDescriptor>
+</Datatable>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SimulationDescriptor Name="Village_Urces"                              Type="PointOfInterestImprovement">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="UrcesUnitProductionCostReduction"          Value="0.05" Operation="Addition" Path="!PointOfInterestStatusPillaged/../ClassCity,CityWithUrcesPacified"/>
+      <SimulationModifierDescriptor TargetProperty="PacifiedVillages_Urces"                    Value="1"    Operation="Addition" Path="!PointOfInterestStatusPillaged/../EmpireTypeMajor"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Village_Kazanji"                            Type="PointOfInterestImprovement">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="KazanjiUnitProductionCostReduction"        Value="0.05" Operation="Addition" Path="!PointOfInterestStatusPillaged/../ClassCity,CityWithKazanjiPacified"/>
+      <SimulationModifierDescriptor TargetProperty="PacifiedVillages_Kazanji"                  Value="1"    Operation="Addition" Path="!PointOfInterestStatusPillaged/../EmpireTypeMajor"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Village_Silics"                             Type="PointOfInterestImprovement">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="SilicsUnitProductionCostReduction"         Value="0.05" Operation="Addition" Path="!PointOfInterestStatusPillaged/../ClassCity,CityWithSilicsPacified"/>
+      <SimulationModifierDescriptor TargetProperty="PacifiedVillages_Silics"                   Value="1"    Operation="Addition" Path="!PointOfInterestStatusPillaged/../EmpireTypeMajor"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Village_Delvers"                            Type="PointOfInterestImprovement">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="DelversUnitProductionCostReduction"        Value="0.05" Operation="Addition" Path="!PointOfInterestStatusPillaged/../ClassCity,CityWithDelversPacified"/>
+      <SimulationModifierDescriptor TargetProperty="PacifiedVillages_Delvers"                  Value="1"    Operation="Addition" Path="!PointOfInterestStatusPillaged/../EmpireTypeMajor"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Village_Haunts"                             Type="PointOfInterestImprovement">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="HauntsUnitProductionCostReduction"         Value="0.05" Operation="Addition" Path="!PointOfInterestStatusPillaged/../ClassCity,CityWithHauntsPacified"/>
+      <SimulationModifierDescriptor TargetProperty="PacifiedVillages_Haunts"                   Value="1"    Operation="Addition" Path="!PointOfInterestStatusPillaged/../EmpireTypeMajor"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Village_Dorgeshi"                           Type="PointOfInterestImprovement">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="DorgeshiUnitProductionCostReduction"       Value="0.05" Operation="Addition" Path="!PointOfInterestStatusPillaged/../ClassCity,CityWithDorgeshiPacified"/>
+      <SimulationModifierDescriptor TargetProperty="PacifiedVillages_Dorgeshi"                 Value="1"    Operation="Addition" Path="!PointOfInterestStatusPillaged/../EmpireTypeMajor"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Village_Erycis"                             Type="PointOfInterestImprovement">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="UrcesUnitProductionCostReduction"         Value="0.05" Operation="Addition" Path="!PointOfInterestStatusPillaged/../ClassCity,CityWithUrcesPacified"/>
+      <SimulationModifierDescriptor TargetProperty="PacifiedVillages_Urces"                   Value="1"    Operation="Addition" Path="!PointOfInterestStatusPillaged/../EmpireTypeMajor"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Village_Ceratan"                            Type="PointOfInterestImprovement">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="SilicsUnitProductionCostReduction"        Value="0.05" Operation="Addition" Path="!PointOfInterestStatusPillaged/../ClassCity,CityWithSilicsPacified"/>
+      <SimulationModifierDescriptor TargetProperty="PacifiedVillages_Silics"                  Value="1"    Operation="Addition" Path="!PointOfInterestStatusPillaged/../EmpireTypeMajor"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Village_SistersOfMercy"                     Type="PointOfInterestImprovement">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="HauntsUnitProductionCostReduction" Value="0.05" Operation="Addition" Path="!PointOfInterestStatusPillaged/../ClassCity,CityWithHauntsPacified"/>
+      <SimulationModifierDescriptor TargetProperty="PacifiedVillages_Haunts"           Value="1"    Operation="Addition" Path="!PointOfInterestStatusPillaged/../EmpireTypeMajor"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Village_Bos"                                Type="PointOfInterestImprovement">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="UrcesUnitProductionCostReduction"            Value="0.05" Operation="Addition" Path="!PointOfInterestStatusPillaged/../ClassCity,CityWithUrcesPacified"/>
+      <SimulationModifierDescriptor TargetProperty="PacifiedVillages_Urces"                      Value="1"    Operation="Addition" Path="!PointOfInterestStatusPillaged/../EmpireTypeMajor"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Village_Jotus"                              Type="PointOfInterestImprovement">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="KazanjiUnitProductionCostReduction"          Value="0.05" Operation="Addition" Path="!PointOfInterestStatusPillaged/../ClassCity,CityWithKazanjiPacified"/>
+      <SimulationModifierDescriptor TargetProperty="PacifiedVillages_Kazanji"                    Value="1"    Operation="Addition" Path="!PointOfInterestStatusPillaged/../EmpireTypeMajor"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Village_Hurnas"                             Type="PointOfInterestImprovement">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="KazanjiUnitProductionCostReduction"         Value="0.05" Operation="Addition" Path="!PointOfInterestStatusPillaged/../ClassCity,CityWithKazanjiPacified"/>
+      <SimulationModifierDescriptor TargetProperty="PacifiedVillages_Kazanji"                   Value="1"    Operation="Addition" Path="!PointOfInterestStatusPillaged/../EmpireTypeMajor"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Village_Gauran"                             Type="PointOfInterestImprovement">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="DelversUnitProductionCostReduction"         Value="0.05" Operation="Addition" Path="!PointOfInterestStatusPillaged/../ClassCity,CityWithDelversPacified"/>
+      <SimulationModifierDescriptor TargetProperty="PacifiedVillages_Delvers"                   Value="1"    Operation="Addition" Path="!PointOfInterestStatusPillaged/../EmpireTypeMajor"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Village_Birdhive"                           Type="PointOfInterestImprovement">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="HauntsUnitProductionCostReduction"       Value="0.05" Operation="Addition" Path="!PointOfInterestStatusPillaged/../ClassCity,CityWithHauntsPacified"/>
+      <SimulationModifierDescriptor TargetProperty="PacifiedVillages_Haunts"                 Value="1"    Operation="Addition" Path="!PointOfInterestStatusPillaged/../EmpireTypeMajor"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Village_Geldirus"                           Type="PointOfInterestImprovement">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="DorgeshiUnitProductionCostReduction"       Value="0.05" Operation="Addition" Path="!PointOfInterestStatusPillaged/../ClassCity,CityWithDorgeshiPacified"/>
+      <SimulationModifierDescriptor TargetProperty="PacifiedVillages_Dorgeshi"                 Value="1"    Operation="Addition" Path="!PointOfInterestStatusPillaged/../EmpireTypeMajor"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="Village_EyelessOnes"                        Type="PointOfInterestImprovement">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="DorgeshiUnitProductionCostReduction"    Value="0.05" Operation="Addition" Path="!PointOfInterestStatusPillaged/../ClassCity,CityWithDorgeshiPacified"/>
+      <SimulationModifierDescriptor TargetProperty="PacifiedVillages_Dorgeshi"              Value="1"    Operation="Addition" Path="!PointOfInterestStatusPillaged/../EmpireTypeMajor"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+</Datatable>

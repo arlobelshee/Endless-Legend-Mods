@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- ########################################## -->
+  <!-- ######        MINOR FACTIONS        ###### -->
+  <!-- ########################################## -->
+
+  <!-- Bribe -->
+  <SimulationDescriptor Name="FactionTraitKazanji"                  Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="BribeCost"              Operation="Addition" Value="14" Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertNeutralCost"     Operation="Addition" Value="1"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertHostileCost"     Operation="Addition" Value="2"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertDestructedCost"  Operation="Addition" Value="3"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+
+      <SimulationModifierDescriptor TargetProperty="DissentDestroyedCost"   Operation="Addition" Value="5"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="DissentPacifiedCost"    Operation="Addition" Value="6"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+
+      <SimulationModifierDescriptor TargetProperty="CatspawCostModifier"    Operation="Addition" Value="3"  Path="EmpireTypeMinor/Garrison/ClassUnit"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitSilics"                   Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="BribeCost"              Operation="Addition" Value="20" Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertNeutralCost"     Operation="Addition" Value="2"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertHostileCost"     Operation="Addition" Value="3"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertDestructedCost"  Operation="Addition" Value="4"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+
+      <SimulationModifierDescriptor TargetProperty="DissentDestroyedCost"   Operation="Addition" Value="4"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="DissentPacifiedCost"    Operation="Addition" Value="5"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+
+      <SimulationModifierDescriptor TargetProperty="CatspawCostModifier"    Operation="Addition" Value="3"  Path="EmpireTypeMinor/Garrison/ClassUnit"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitHaunts"                   Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="BribeCost"              Operation="Addition" Value="22" Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertNeutralCost"     Operation="Addition" Value="2"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertHostileCost"     Operation="Addition" Value="3"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertDestructedCost"  Operation="Addition" Value="4"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+
+      <SimulationModifierDescriptor TargetProperty="DissentDestroyedCost"   Operation="Addition" Value="6"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="DissentPacifiedCost"    Operation="Addition" Value="7"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+
+      <SimulationModifierDescriptor TargetProperty="CatspawCostModifier"    Operation="Addition" Value="5"  Path="EmpireTypeMinor/Garrison/ClassUnit"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitJotus"                    Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="BribeCost"              Operation="Addition" Value="22" Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertNeutralCost"     Operation="Addition" Value="2"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertHostileCost"     Operation="Addition" Value="3"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertDestructedCost"  Operation="Addition" Value="4"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+
+      <SimulationModifierDescriptor TargetProperty="DissentDestroyedCost"   Operation="Addition" Value="5"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="DissentPacifiedCost"    Operation="Addition" Value="6"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+
+      <SimulationModifierDescriptor TargetProperty="CatspawCostModifier"    Operation="Addition" Value="4"  Path="EmpireTypeMinor/Garrison/ClassUnit"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitHurnas"                   Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="BribeCost"              Operation="Addition" Value="14" Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertNeutralCost"     Operation="Addition" Value="1"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertHostileCost"     Operation="Addition" Value="2"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertDestructedCost"  Operation="Addition" Value="3"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+
+      <SimulationModifierDescriptor TargetProperty="DissentDestroyedCost"   Operation="Addition" Value="1"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="DissentPacifiedCost"    Operation="Addition" Value="2"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+
+      <SimulationModifierDescriptor TargetProperty="CatspawCostModifier"    Operation="Addition" Value="0"  Path="EmpireTypeMinor/Garrison/ClassUnit"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitGauran"                   Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="BribeCost"              Operation="Addition" Value="22" Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertNeutralCost"     Operation="Addition" Value="2"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertHostileCost"     Operation="Addition" Value="3"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertDestructedCost"  Operation="Addition" Value="4"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+
+      <SimulationModifierDescriptor TargetProperty="DissentDestroyedCost"   Operation="Addition" Value="5"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="DissentPacifiedCost"    Operation="Addition" Value="6"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+
+      <SimulationModifierDescriptor TargetProperty="CatspawCostModifier"    Operation="Addition" Value="4"  Path="EmpireTypeMinor/Garrison/ClassUnit"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitBirdhive"                 Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="BribeCost"              Operation="Addition" Value="16" Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertNeutralCost"     Operation="Addition" Value="2"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertHostileCost"     Operation="Addition" Value="2"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertDestructedCost"  Operation="Addition" Value="4"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+
+      <SimulationModifierDescriptor TargetProperty="DissentDestroyedCost"   Operation="Addition" Value="2"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="DissentPacifiedCost"    Operation="Addition" Value="2"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+
+      <SimulationModifierDescriptor TargetProperty="CatspawCostModifier"    Operation="Addition" Value="0"  Path="EmpireTypeMinor/Garrison/ClassUnit"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitGeldirus"                 Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="BribeCost"              Operation="Addition" Value="20" Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertNeutralCost"     Operation="Addition" Value="2"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertHostileCost"     Operation="Addition" Value="3"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertDestructedCost"  Operation="Addition" Value="4"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+
+      <SimulationModifierDescriptor TargetProperty="DissentDestroyedCost"   Operation="Addition" Value="4"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="DissentPacifiedCost"    Operation="Addition" Value="5"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+
+      <SimulationModifierDescriptor TargetProperty="CatspawCostModifier"    Operation="Addition" Value="3"  Path="EmpireTypeMinor/Garrison/ClassUnit"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitEyelessOnes"              Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="BribeCost"              Operation="Addition" Value="18" Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertNeutralCost"     Operation="Addition" Value="3"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertHostileCost"     Operation="Addition" Value="4"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertDestructedCost"  Operation="Addition" Value="5"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+
+      <SimulationModifierDescriptor TargetProperty="DissentDestroyedCost"   Operation="Addition" Value="3"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="DissentPacifiedCost"    Operation="Addition" Value="4"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+
+      <SimulationModifierDescriptor TargetProperty="CatspawCostModifier"    Operation="Addition" Value="2"  Path="EmpireTypeMinor/Garrison/ClassUnit"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="FactionTraitDorgeshi"                 Type="FactionTrait">
+    <SimulationModifierDescriptors>
+      <SimulationModifierDescriptor TargetProperty="BribeCost"              Operation="Addition" Value="20" Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertNeutralCost"     Operation="Addition" Value="2"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertHostileCost"     Operation="Addition" Value="3"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="ConvertDestructedCost"  Operation="Addition" Value="4"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+
+      <SimulationModifierDescriptor TargetProperty="DissentDestroyedCost"   Operation="Addition" Value="4"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+      <SimulationModifierDescriptor TargetProperty="DissentPacifiedCost"    Operation="Addition" Value="5"  Path="EmpireTypeMinor/ClassMinorEmpireGarrison"/>
+
+      <SimulationModifierDescriptor TargetProperty="CatspawCostModifier"    Operation="Addition" Value="3"  Path="EmpireTypeMinor/Garrison/ClassUnit"/>
+    </SimulationModifierDescriptors>
+  </SimulationDescriptor>
+</Datatable>

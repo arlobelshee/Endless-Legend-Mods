@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RuntimeModule Name="UberWorld" Type="Extension">
+    
+    <Title>Uber World - Mighty Empires</Title>
+    <Author>Yup, me</Author>
+    <Homepage></Homepage>
+    <ReleaseNotes></ReleaseNotes>
+    <Description>All the things, especially for those with conversion.</Description>
+    
+    <Plugins>
+
+      <!-- GamePlay -->
+
+      <DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
+        <FilePath>Simulation/SimulationDescriptors.xml</FilePath>
+        <FilePath>Simulation/SimulationDescriptors[*].xml</FilePath>
+        <FilePath>Quests/SimulationDescriptors[*].xml</FilePath>
+      </DatabasePlugin>
+      <DatabasePlugin DataType="CostReduction, Assembly-CSharp">
+        <FilePath>Simulation/CostReductions.xml</FilePath>
+      </DatabasePlugin>
+      <DatabasePlugin DataType="BoosterDefinition, Assembly-CSharp">
+        <FilePath>Simulation/DepartmentOfPlanificationAndDevelopment+Constructibles[*].xml</FilePath>
+      </DatabasePlugin>
+      <DatabasePlugin DataType="BoosterGeneratorDefinition, Assembly-CSharp">
+        <FilePath>Simulation/DepartmentOfIndustry+Constructibles[Booster].xml</FilePath>
+      </DatabasePlugin>
+      <DatabasePlugin DataType="ConstructibleElement, Assembly-CSharp">
+        <ExtraTypes>
+          <ExtraType DataType="BoosterDefinition, Assembly-CSharp" />
+          <ExtraType DataType="BoosterGeneratorDefinition, Assembly-CSharp" />
+          <ExtraType DataType="CityConstructibleActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="CityImprovementDefinition, Assembly-CSharp" />
+          <ExtraType DataType="CoastalDistrictImprovementDefinition, Assembly-CSharp" />
+          <ExtraType DataType="DiplomaticTermBoosterExchangeDefinition, Assembly-CSharp" />
+          <ExtraType DataType="DiplomaticTermCityExchangeDefinition, Assembly-CSharp" />
+          <ExtraType DataType="DiplomaticTermDefinition, Assembly-CSharp" />
+          <ExtraType DataType="DiplomaticTermDiplomaticRelationStateDefinition, Assembly-CSharp" />
+          <ExtraType DataType="DiplomaticTermMapExchangeDefinition, Assembly-CSharp" />
+          <ExtraType DataType="DiplomaticTermResourceExchangeDefinition, Assembly-CSharp" />
+          <ExtraType DataType="DiplomaticTermTechnologyExchangeDefinition, Assembly-CSharp" />
+          <ExtraType DataType="DiplomaticTermProposalDefinition, Assembly-CSharp" />
+          <ExtraType DataType="DiplomaticTermPrisonerExchangeDefinition, Assembly-CSharp" />
+          <ExtraType DataType="DistrictImprovementDefinition, Assembly-CSharp" />
+          <ExtraType DataType="EmpirePlanDefinition, Assembly-CSharp" />
+          <ExtraType DataType="FreeDistrictImprovementDefinition, Assembly-CSharp" />
+          <ExtraType DataType="ItemDefinition, Assembly-CSharp" />
+          <ExtraType DataType="PointOfInterestImprovementDefinition, Assembly-CSharp" />
+          <ExtraType DataType="TechnologyDefinition, Assembly-CSharp" />
+          <ExtraType DataType="TechnologyEraDefinition, Assembly-CSharp" />
+          <ExtraType DataType="UnitBodyDefinition, Assembly-CSharp" />
+          <ExtraType DataType="UnitProfile, Assembly-CSharp" />
+          <ExtraType DataType="UnitSkill, Assembly-CSharp" />
+          <ExtraType DataType="UnitAbility, Assembly-CSharp" />
+        </ExtraTypes>
+        <FilePath>Simulation/DepartmentOfIndustry+Constructibles[*].xml</FilePath>
+        <FilePath>Simulation/DepartmentOfPlanificationAndDevelopment+Constructibles[*].xml</FilePath>
+        <FilePath>Simulation/DepartmentOfScience+Constructibles[*].xml</FilePath>
+        <FilePath>Simulation/ItemDefinitions[*].xml</FilePath>
+        <FilePath>Simulation/UnitProfiles[*].xml</FilePath>
+        <FilePath>Simulation/UnitBodyDefinitions.xml</FilePath>
+        <FilePath>Diplomacy/DepartmentOfForeignAffairs+Constructibles[*].xml</FilePath>
+        <FilePath>Simulation/UnitSkills[*].xml</FilePath>
+        <FilePath>Simulation/UnitAbilities.xml</FilePath>
+      </DatabasePlugin>
+      <DatabasePlugin DataType="DepartmentOfIndustry+ConstructibleElement, Assembly-CSharp">
+        <ExtraTypes>
+          <ExtraType DataType="BoosterGeneratorDefinition, Assembly-CSharp" />
+          <ExtraType DataType="CityConstructibleActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="CityImprovementDefinition, Assembly-CSharp" />
+          <ExtraType DataType="CoastalDistrictImprovementDefinition, Assembly-CSharp" />
+          <ExtraType DataType="DistrictImprovementDefinition, Assembly-CSharp" />
+          <ExtraType DataType="FreeDistrictImprovementDefinition, Assembly-CSharp" />
+          <ExtraType DataType="PointOfInterestImprovementDefinition, Assembly-CSharp" />
+        </ExtraTypes>
+        <FilePath>Simulation/DepartmentOfIndustry+Constructibles[*].xml</FilePath>
+      </DatabasePlugin>
+      <DatabasePlugin DataType="DepartmentOfPlanificationAndDevelopment+ConstructibleElement, Assembly-CSharp">
+        <ExtraTypes>
+          <ExtraType DataType="BoosterDefinition, Assembly-CSharp" />
+          <ExtraType DataType="EmpirePlanDefinition, Assembly-CSharp" />
+        </ExtraTypes>
+        <FilePath>Simulation/DepartmentOfPlanificationAndDevelopment+Constructibles[*].xml</FilePath>
+      </DatabasePlugin>
+      <DatabasePlugin DataType="DepartmentOfScience+ConstructibleElement, Assembly-CSharp">
+        <ExtraTypes>
+          <ExtraType DataType="TechnologyDefinition, Assembly-CSharp" />
+          <ExtraType DataType="TechnologyEraDefinition, Assembly-CSharp" />
+        </ExtraTypes>
+        <FilePath>Simulation/DepartmentOfScience+Constructibles[*].xml</FilePath>
+      </DatabasePlugin>
+      <DatabasePlugin DataType="DiplomaticAbilityDefinition, Assembly-CSharp">
+        <FilePath>Diplomacy/DiplomaticAbilities.xml</FilePath>
+      </DatabasePlugin>
+      <DatabasePlugin DataType="Faction, Assembly-CSharp">
+        <ExtraTypes>
+          <ExtraType DataType="MinorFaction, Assembly-CSharp" />
+        </ExtraTypes>
+        <FilePath>Simulation/Factions.xml</FilePath>
+      </DatabasePlugin>
+      <DatabasePlugin DataType="FactionAffinity, Assembly-CSharp">
+        <FilePath>Simulation/FactionTraits[Affinity].xml</FilePath>
+      </DatabasePlugin>
+      <DatabasePlugin DataType="FactionTrait, Assembly-CSharp">
+        <ExtraTypes>
+          <ExtraType DataType="FactionAffinity, Assembly-CSharp" />
+          <ExtraType DataType="FactionAffinityMapping, Assembly-CSharp" />
+        </ExtraTypes>
+        <FilePath>Simulation/FactionTraits.xml</FilePath>
+        <FilePath>Simulation/FactionTraits[*].xml</FilePath>
+      </DatabasePlugin>
+      <DatabasePlugin DataType="GameModifierDefinition, Assembly-CSharp">
+        <FilePath>Options/GameModifiers[*].xml</FilePath>
+      </DatabasePlugin>
+      <DatabasePlugin DataType="LeechDefinition, Assembly-CSharp">
+        <FilePath>Simulation/LeechDefinitions.xml</FilePath>
+      </DatabasePlugin>
+      <DatabasePlugin DataType="PointOfInterestTemplate, Assembly-CSharp">
+        <FilePath>Simulation/PointOfInterestTemplates.xml</FilePath>
+      </DatabasePlugin>
+      <DatabasePlugin DataType="ResourceConverterDefinition, Assembly-CSharp">
+        <FilePath>Simulation/ResourceConverterDefinitions.xml</FilePath>
+      </DatabasePlugin>
+      <DatabasePlugin DataType="WorldFormation, Assembly-CSharp">
+        <FilePath>Simulation/WorldFormations.xml</FilePath>
+      </DatabasePlugin>
+
+      <!-- Mapping -->
+
+      <DatabasePlugin DataType="Amplitude.Unity.View.Mapping.Xml.XmlMapping, Assembly-CSharp-firstpass">
+        <FilePath>Mapping/Mapping.xml</FilePath>
+      </DatabasePlugin>
+      <DatabasePlugin DataType="AnomalyTypeMapping, Assembly-CSharp">
+        <FilePath>Mapping/AnomalyTypeMapping[*].xml</FilePath>
+      </DatabasePlugin>
+      <DatabasePlugin DataType="BiomeTypeMapping, Assembly-CSharp">
+        <FilePath>Mapping/BiomeTypeMapping[*].xml</FilePath>
+      </DatabasePlugin>
+      <DatabasePlugin DataType="Palette, Assembly-CSharp">
+        <FilePath>Mapping/Palettes.xml</FilePath>
+      </DatabasePlugin>
+      <DatabasePlugin DataType="ResourceDefinition, Assembly-CSharp">
+        <FilePath>Simulation/ResourceDefinitions.xml</FilePath>
+      </DatabasePlugin>
+      <DatabasePlugin DataType="TerrainTypeMapping, Assembly-CSharp">
+        <FilePath>Mapping/TerrainTypeMapping[*].xml</FilePath>
+      </DatabasePlugin>
+      <DatabasePlugin DataType="OrbTypeMapping, Assembly-CSharp">
+        <FilePath>Mapping/OrbTypeMapping[*].xml</FilePath>
+      </DatabasePlugin>
+      <DatabasePlugin DataType="RiverTypeMapping, Assembly-CSharp">
+        <FilePath>Mapping/RiverTypeMapping[*].xml</FilePath>
+      </DatabasePlugin>
+
+      <!-- Quests -->
+
+      <DatabasePlugin DataType="Droplist, Assembly-CSharp">
+        <FilePath>Quests/Droplists/Droplists[*].xml</FilePath>
+        <FilePath>Simulation/Droplists[*].xml</FilePath>
+      </DatabasePlugin>
+
+      <DatabasePlugin DataType="QuestDefinition, Assembly-CSharp">
+        <Overrides>
+          <Override Name="Prerequisites" DataType="Amplitude.Query.Xml.XmlQueryPrerequisites, Assembly-CSharp-firstpass">
+            <ExtraType Name="FilterEmpireByDiplomaticRelationState" DataType="QuestFilterEmpireByDiplomaticRelationState, Assembly-CSharp" />
+            <ExtraType Name="FilterConstructibleElementByCategory" DataType="QuestFilterConstructibleElementByCategory, Assembly-CSharp" />
+            <ExtraType Name="FilterConstructibleElementBySubCategory" DataType="QuestFilterConstructibleElementBySubCategory, Assembly-CSharp" />
+            <ExtraType Name="FilterWorldPositionByDistance" DataType="QuestFilterWorldPositionByDistance, Assembly-CSharp" />
+            <ExtraType Name="FilterRegionByDistance" DataType="QuestFilterWorldPositionByDistance, Assembly-CSharp" />
+            <ExtraType Name="FilterRegionIsOcean" DataType="QuestFilterRegionIsOcean, Assembly-CSharp" />
+            <ExtraType Name="FilterRegionIsColonized" DataType="QuestFilterRegionIsColonized, Assembly-CSharp" />
+            <ExtraType Name="FilterRegionIsContinent" DataType="QuestFilterRegionIsContinent, Assembly-CSharp" />
+            <ExtraType Name="FilterRegionIsOnSameContinent" DataType="QuestFilterRegionIsOnSameContinent, Assembly-CSharp" />
+            <ExtraType Name="FilterCityByEmpire" DataType="QuestFilterCityByEmpire, Assembly-CSharp" />
+            <ExtraType Name="FilterRegionByEmpire" DataType="QuestFilterRegionByEmpire, Assembly-CSharp" />
+          </Override>
+
+          <Override Name="Sorter" DataType="Amplitude.Query.Xml.XmlQuerySorter, Assembly-CSharp-firstpass">
+            <ExtraType Name="SortRegionByDistance" DataType="QuestSorterRegionByDistance, Assembly-CSharp" />
+            <ExtraType Name="SortPointOfInterestByDistance" DataType="QuestSorterPointOfInterestByDistance, Assembly-CSharp" />
+            <ExtraType Name="SortVillageByDistance" DataType="QuestSorterVillageByDistance, Assembly-CSharp" />
+            <ExtraType Name="SortCitiesBySimulationProperty" DataType="QuestSorterCitiesBySimulationProperty, Assembly-CSharp" />
+          </Override>
+
+          <Override Name="Children" DataType="Amplitude.Unity.AI.BehaviourTree.BehaviourTreeNodeController, Assembly-CSharp-firstpass">
+
+            <!-- Actions -->
+            <ExtraType Name="Action_ActivateBooster" DataType="QuestBehaviourTreeNode_Action_ActivateBooster, Assembly-CSharp" />
+            <ExtraType Name="Action_AddQuestMarker" DataType="QuestBehaviourTreeNode_Action_AddQuestMarker, Assembly-CSharp" />
+            <ExtraType Name="Action_Alert" DataType="QuestBehaviourTreeNode_Action_Alert, Assembly-CSharp" />
+            <ExtraType Name="Action_ApplyWorldEffect" DataType="QuestBehaviourTreeNode_Action_ApplyWorldEffect, Assembly-CSharp" />
+            <ExtraType Name="Action_Debug-Log" DataType="QuestBehaviourTreeNode_Action_Debug_Log, Assembly-CSharp" />
+            <ExtraType Name="Action_DestroyArmy" DataType="QuestBehaviourTreeNode_Action_DestroyArmy, Assembly-CSharp" />
+            <ExtraType Name="Action_Elimination" DataType="QuestBehaviourTreeNode_Action_Elimination, Assembly-CSharp" />
+            <ExtraType Name="Action_Fail" DataType="QuestBehaviourTreeNode_Action_Fail, Assembly-CSharp" />
+            <ExtraType Name="Action_FocusCamera" DataType="QuestBehaviourTreeNode_Action_FocusCamera, Assembly-CSharp" />
+            <ExtraType Name="Action_ForceUnlockTechnology" DataType="QuestBehaviourTreeNode_Action_ForceUnlockTechnology, Assembly-CSharp" />
+            <ExtraType Name="Action_LockInteraction" DataType="QuestBehaviourTreeNode_Action_LockInteraction, Assembly-CSharp" />
+            <ExtraType Name="Action_LockQuestTarget" DataType="QuestBehaviourTreeNode_Action_LockQuestTarget, Assembly-CSharp" />
+            <ExtraType Name="Action_PacifyMinorFaction" DataType="QuestBehaviourTreeNode_Action_PacifyMinorFaction, Assembly-CSharp" />
+            <ExtraType Name="Action_RemoveHero" DataType="QuestBehaviourTreeNode_Action_RemoveHero, Assembly-CSharp" />
+            <ExtraType Name="Action_ResetStepProgression" DataType="QuestBehaviourTreeNode_Action_ResetStepProgression, Assembly-CSharp" />
+            <ExtraType Name="Action_SpawnArmy" DataType="QuestBehaviourTreeNode_Action_SpawnArmy, Assembly-CSharp" />
+            <ExtraType Name="Action_SelectVictoryQuestLocations" DataType="QuestBehaviourTreeNode_Action_SelectVictoryQuestLocations, Assembly-CSharp" />
+            <ExtraType Name="Action_StartTimer" DataType="QuestBehaviourTreeNode_Action_StartTimer, Assembly-CSharp" />
+            <ExtraType Name="Action_TransferResource" DataType="QuestBehaviourTreeNode_Action_TransferResource, Assembly-CSharp" />
+            <ExtraType Name="Action_TriggerQuest" DataType="QuestBehaviourTreeNode_Action_TriggerQuest, Assembly-CSharp" />
+            <ExtraType Name="Action_RemoveQuestMarker" DataType="QuestBehaviourTreeNode_Action_RemoveQuestMarker, Assembly-CSharp" />
+            <ExtraType Name="Action_RemoveWorldEffect" DataType="QuestBehaviourTreeNode_Action_RemoveWorldEffect, Assembly-CSharp" />
+            <ExtraType Name="Action_UpdateQuestMarker" DataType="QuestBehaviourTreeNode_Action_UpdateQuestMarker, Assembly-CSharp" />
+            <!--Deprecated - will raise a warning if used-->
+            <ExtraType Name="Action_UpdateArmyObjective" DataType="QuestBehaviourTreeNode_Action_UpdateArmyObjective, Assembly-CSharp" />
+            <ExtraType Name="Action_UpdateQuest" DataType="QuestBehaviourTreeNode_Action_UpdateQuest, Assembly-CSharp" />
+            <ExtraType Name="Action_UpdateStep" DataType="QuestBehaviourTreeNode_Action_UpdateStep, Assembly-CSharp" />
+            <ExtraType Name="Action_UpdateTimerLocalization" DataType="QuestBehaviourTreeNode_Action_UpdateTimerLocalization, Assembly-CSharp" />
+
+
+            <!-- Tutorial Actions -->
+            <ExtraType Name="Action_Tutorial_ShowHighlightPanel" DataType="QuestBehaviourTreeNode_Action_Tutorial_HighlightGuiPanel, Assembly-CSharp" />
+            <ExtraType Name="Action_Tutorial_HideHighlightPanel" DataType="QuestBehaviourTreeNode_Action_Tutorial_HideHighlightPanel, Assembly-CSharp" />
+            <ExtraType Name="Action_Tutorial_ShowInstructionPanel" DataType="QuestBehaviourTreeNode_Action_Tutorial_ShowInstructionPanel, Assembly-CSharp" />
+            <ExtraType Name="Action_Tutorial_HideInstructionPanel" DataType="QuestBehaviourTreeNode_Action_Tutorial_HideInstructionPanel, Assembly-CSharp" />
+            <ExtraType Name="Action_Tutorial_SetValue" DataType="QuestBehaviourTreeNode_Action_Tutorial_SetValue, Assembly-CSharp" />
+
+            <!-- Decorators -->
+            <ExtraType Name="Decorator_ArmyDestroyed" DataType="QuestBehaviourTreeNode_Decorator_ArmyDestroyed, Assembly-CSharp" />
+            <ExtraType Name="Decorator_BeginTurn" DataType="QuestBehaviourTreeNode_Decorator_BeginTurn, Assembly-CSharp" />
+            <ExtraType Name="Decorator_BoosterActivated" DataType="QuestBehaviourTreeNode_Decorator_BoosterActivated, Assembly-CSharp" />
+            <ExtraType Name="Decorator_CaptureCity" DataType="QuestBehaviourTreeNode_Decorator_CaptureCity, Assembly-CSharp" />
+            <ExtraType Name="Decorator_CollectOrbs" DataType="QuestBehaviourTreeNode_Decorator_CollectOrbs, Assembly-CSharp" />
+            <ExtraType Name="Decorator_Colonize" DataType="QuestBehaviourTreeNode_Decorator_Colonize, Assembly-CSharp" />
+            <ExtraType Name="Decorator_ConstructionEnded" DataType="QuestBehaviourTreeNode_Decorator_ConstructionEnded, Assembly-CSharp" />
+            <ExtraType Name="Decorator_Debug-PressKey" DataType="QuestBehaviourTreeNode_Decorator_Debug_PressKey, Assembly-CSharp" />
+            <ExtraType Name="Decorator_DistrictLevelUp" DataType="QuestBehaviourTreeNode_Decorator_DistrictLevelUp, Assembly-CSharp" />
+            <ExtraType Name="Decorator_EndTurn" DataType="QuestBehaviourTreeNode_Decorator_EndTurn, Assembly-CSharp" />
+            <ExtraType Name="Decorator_FactionAssimilated" DataType="QuestBehaviourTreeNode_Decorator_FactionAssimilated, Assembly-CSharp" />
+            <ExtraType Name="Decorator_HeroAssignment" DataType="QuestBehaviourTreeNode_Decorator_HeroAssignment, Assembly-CSharp" />
+            <ExtraType Name="Decorator_Inspect" DataType="QuestBehaviourTreeNode_Decorator_Inspect, Assembly-CSharp" />
+            <ExtraType Name="Decorator_InteractWith" DataType="QuestBehaviourTreeNode_Decorator_InteractWith, Assembly-CSharp" />
+            <ExtraType Name="Decorator_KillArmy" DataType="QuestBehaviourTreeNode_Decorator_KillArmy, Assembly-CSharp" />
+            <ExtraType Name="Decorator_PillageSucceed" DataType="QuestBehaviourTreeNode_Decorator_PillageSucceed, Assembly-CSharp" />
+            <ExtraType Name="Decorator_QuestCompleted" DataType="QuestBehaviourTreeNode_Decorator_QuestCompleted, Assembly-CSharp" />
+            <ExtraType Name="Decorator_SpyAction" DataType="QuestBehaviourTreeNode_Decorator_SpyAction, Assembly-CSharp" />
+            <ExtraType Name="Decorator_Talk" DataType="QuestBehaviourTreeNode_Decorator_Talk, Assembly-CSharp" />
+            <ExtraType Name="Decorator_TechnologyEnded" DataType="QuestBehaviourTreeNode_Decorator_TechnologyEnded, Assembly-CSharp" />
+            <ExtraType Name="Decorator_TimerEnded" DataType="QuestBehaviourTreeNode_Decorator_TimerEnded, Assembly-CSharp" />
+            <ExtraType Name="Decorator_TradeRoutesUpdated" DataType="QuestBehaviourTreeNode_Decorator_TradeRoutesUpdated, Assembly-CSharp" />
+            <ExtraType Name="Decorator_UnitSkillUnlocked" DataType="QuestBehaviourTreeNode_Decorator_UnitSkillUnlocked, Assembly-CSharp" />
+            <ExtraType Name="Decorator_VillagesDestroyed" DataType="QuestBehaviourTreeNode_Decorator_VillagesDestroyed, Assembly-CSharp" />
+            <ExtraType Name="Decorator_VillagesPacified" DataType="QuestBehaviourTreeNode_Decorator_VillagesPacified, Assembly-CSharp" />
+
+            <!-- Tutorial Decorators-->
+            <ExtraType Name="Decorator_Tutorial_Buyout" DataType="QuestBehaviourTreeNode_Decorator_Tutorial_Buyout, Assembly-CSharp" />
+            <ExtraType Name="Decorator_Tutorial_ConstructionQueued" DataType="QuestBehaviourTreeNode_Decorator_Tutorial_ConstructionQueued, Assembly-CSharp" />
+            <ExtraType Name="Decorator_Tutorial_FIDSDisplayed" DataType="QuestBehaviourTreeNode_Decorator_Tutorial_FIDSDisplayed, Assembly-CSharp" />
+            <ExtraType Name="Decorator_Tutorial_InstructionNextClicked" DataType="QuestBehaviourTreeNode_Decorator_Tutorial_InstructionNextClicked, Assembly-CSharp" />
+            <ExtraType Name="Decorator_Tutorial_PanelShowed" DataType="QuestBehaviourTreeNode_Decorator_Tutorial_PanelShowed, Assembly-CSharp" />
+            <ExtraType Name="Decorator_Tutorial_PanelHidden" DataType="QuestBehaviourTreeNode_Decorator_Tutorial_PanelHidden, Assembly-CSharp" />
+            <ExtraType Name="Decorator_Tutorial_WorkerDragged" DataType="QuestBehaviourTreeNode_Decorator_Tutorial_WorkerDragged, Assembly-CSharp" />
+
+          </Override>
+        </Overrides>
+        <FilePath>Quests/QuestDefinitions[*].xml</FilePath>
+      </DatabasePlugin>
+
+      <DatabasePlugin DataType="PillarDefinition, Assembly-CSharp">
+        <ExtraTypes>
+          <ExtraType DataType="WardDefinition, Assembly-CSharp" />
+        </ExtraTypes>
+        <FilePath>Pillars/PillarDefinition[*].xml</FilePath>
+      </DatabasePlugin>
+
+      <DatabasePlugin DataType="SpellDefinition, Assembly-CSharp">
+        <FilePath>Spells/SpellDefinition.xml</FilePath>
+      </DatabasePlugin>
+
+      <DatabasePlugin DataType="WorldEffectDefinition, Assembly-CSharp">
+        <ExtraTypes>
+          <ExtraType DataType="WorldEffectDefinition_FIDSModifier, Assembly-CSharp" />
+          <ExtraType DataType="WorldEffectDefinition_MovementCostModifier, Assembly-CSharp" />
+        </ExtraTypes>
+        <FilePath>WorldEffect/WorldEffectDefinition.xml</FilePath>
+      </DatabasePlugin>
+
+      <!-- Option Definitions -->
+
+      <DatabasePlugin DataType="OptionDefinition, Assembly-CSharp">
+        <ExtraTypes>
+          <ExtraType DataType="GameOptionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="WorldGeneratorOptionDefinition, Assembly-CSharp" />
+        </ExtraTypes>
+        <FilePath>Options/GameOptionDefinitions.xml</FilePath>
+        <FilePath>WorldGenerator/WorldGeneratorOptionDefinitions.xml</FilePath>
+      </DatabasePlugin>
+
+    </Plugins>
+  </RuntimeModule>
+</Datatable>
