@@ -6,7 +6,7 @@
   <!-- ########################################## -->
 
   <!-- Broken Lords -->
-  <FactionAffinity                  Name="AffinityBrokenLords"                  SubCategory="MajorFactionAffinity"    Hidden="false" Cost="205">
+  <FactionAffinity                  Name="AffinityBrokenLords"                  SubCategory="MajorFactionAffinity"    Hidden="false" Cost="805">
     <SimulationDescriptorReference  Name="AffinityBrokenLords"/>
     <DefaultAffinityMapping         Name="AffinityMappingBrokenLords"/>
     <Personality                    Name="PersonalityAffinityBrokenLords"/>
@@ -23,7 +23,7 @@
   </FactionAffinity>
 
   <!-- Mad Fairies -->
-  <FactionAffinity                  Name="AffinityMadFairies"                   SubCategory="MajorFactionAffinity"    Hidden="false" Cost="205">
+  <FactionAffinity                  Name="AffinityMadFairies"                   SubCategory="MajorFactionAffinity"    Hidden="false" Cost="805">
     <SimulationDescriptorReference  Name="AffinityMadFairies"/>
     <DefaultAffinityMapping         Name="AffinityMappingMadFairies"/>
     <Personality                    Name="PersonalityAffinityMadFairies"/>
@@ -40,7 +40,7 @@
   </FactionAffinity>
 
   <!-- Necrophages -->
-  <FactionAffinity                  Name="AffinityNecrophages"                  SubCategory="MajorFactionAffinity"    Hidden="false" Cost="205">
+  <FactionAffinity                  Name="AffinityNecrophages"                  SubCategory="MajorFactionAffinity"    Hidden="false" Cost="805">
     <SimulationDescriptorReference  Name="AffinityNecrophages"/>
     <DefaultAffinityMapping         Name="AffinityMappingNecrophages"/>
     <Personality                    Name="PersonalityAffinityNecrophages"/>
@@ -57,7 +57,7 @@
   </FactionAffinity>
 
   <!-- Rage Wizards -->
-  <FactionAffinity                  Name="AffinityRageWizards"                  SubCategory="MajorFactionAffinity"    Hidden="false" Cost="205">
+  <FactionAffinity                  Name="AffinityRageWizards"                  SubCategory="MajorFactionAffinity"    Hidden="false" Cost="805">
     <SimulationDescriptorReference  Name="AffinityRageWizards"/>
     <DefaultAffinityMapping         Name="AffinityMappingRageWizards"/>
     <Personality                    Name="PersonalityAffinityRageWizards"/>
@@ -74,7 +74,7 @@
   </FactionAffinity>
 
   <!-- Vaulters -->
-  <FactionAffinity                  Name="AffinityVaulters"                     SubCategory="MajorFactionAffinity"    Hidden="false" Cost="205">
+  <FactionAffinity                  Name="AffinityVaulters"                     SubCategory="MajorFactionAffinity"    Hidden="false" Cost="805">
     <SimulationDescriptorReference  Name="AffinityVaulters"/>
     <DefaultAffinityMapping         Name="AffinityMappingVaulters"/>
     <Personality                    Name="PersonalityAffinityVaulters"/>
@@ -92,7 +92,7 @@
   </FactionAffinity>
 
   <!-- Roving Clans -->
-  <FactionAffinity                  Name="AffinityRovingClans"                  SubCategory="MajorFactionAffinity"    Hidden="false" Cost="205">
+  <FactionAffinity                  Name="AffinityRovingClans"                  SubCategory="MajorFactionAffinity"    Hidden="false" Cost="805">
     <SimulationDescriptorReference  Name="AffinityRovingClans"/>
     <DefaultAffinityMapping         Name="AffinityMappingRovingClans"/>
     <Personality                    Name="PersonalityAffinityRovingClans"/>
@@ -109,7 +109,7 @@
   </FactionAffinity>
 
   <!-- Drakkens -->
-  <FactionAffinity                  Name="AffinityDrakkens"                     SubCategory="MajorFactionAffinity"    Hidden="false" Cost="205">
+  <FactionAffinity                  Name="AffinityDrakkens"                     SubCategory="MajorFactionAffinity"    Hidden="false" Cost="805">
     <SimulationDescriptorReference  Name="AffinityDrakkens"/>
     <DefaultAffinityMapping         Name="AffinityMappingDrakkens"/>
     <Personality                    Name="PersonalityAffinityDrakkens"/>
@@ -126,7 +126,7 @@
   </FactionAffinity>
 
   <!-- Cultists -->
-  <FactionAffinity                  Name="AffinityCultists"                     SubCategory="MajorFactionAffinity"    Hidden="false" Cost="205">
+  <FactionAffinity                  Name="AffinityCultists"                     SubCategory="MajorFactionAffinity"    Hidden="false" Cost="805">
     <SimulationDescriptorReference  Name="AffinityCultists"/>
     <DefaultAffinityMapping         Name="AffinityMappingCultists"/>
     <Personality                    Name="PersonalityAffinityCultists"/>
@@ -143,7 +143,7 @@
   </FactionAffinity>
 
   <!-- Mezari -->
-  <FactionAffinity                  Name="AffinityMezari"                       SubCategory="MajorFactionAffinity"    Hidden="false" Cost="205">
+  <FactionAffinity                  Name="AffinityMezari"                       SubCategory="MajorFactionAffinity"    Hidden="false" Cost="805">
     <SimulationDescriptorReference  Name="AffinityMezari"/>
     <DefaultAffinityMapping         Name="AffinityMappingMezari"/>
     <Personality                    Name="PersonalityAffinityVaulters"/>
@@ -161,7 +161,7 @@
   </FactionAffinity>
 
   <!-- Replicants -->
-  <FactionAffinity                  Name="AffinityReplicants"                   SubCategory="MajorFactionAffinity"    Hidden="false" Cost="205">
+  <FactionAffinity                  Name="AffinityReplicants"                   SubCategory="MajorFactionAffinity"    Hidden="false" Cost="805">
     <SimulationDescriptorReference  Name="AffinityReplicants"/>
     <DefaultAffinityMapping         Name="AffinityMappingReplicants"/>
     <Personality                    Name="PersonalityAffinityReplicants"/>
@@ -178,7 +178,7 @@
   </FactionAffinity>
 
   <!-- Winter Shifters -->
-  <FactionAffinity                  Name="AffinityWinterShifters"               SubCategory="MajorFactionAffinity"    Hidden="false" Cost="205">
+  <FactionAffinity                  Name="AffinityWinterShifters"               SubCategory="MajorFactionAffinity"    Hidden="false" Cost="805">
     <SimulationDescriptorReference  Name="AffinityWinterShifters"/>
     <DefaultAffinityMapping         Name="AffinityMappingWinterShifters"/>
     <Personality                    Name="PersonalityAffinityWinterShifters"/>
@@ -195,7 +195,7 @@
   </FactionAffinity>
 
   <!-- Sea Demons -->
-  <FactionAffinity                  Name="AffinitySeaDemons"                    SubCategory="MajorFactionAffinity"    Hidden="false" Cost="205">
+  <FactionAffinity                  Name="AffinitySeaDemons"                    SubCategory="MajorFactionAffinity"    Hidden="false" Cost="805">
     <SimulationDescriptorReference  Name="AffinitySeaDemons"/>
     <DefaultAffinityMapping         Name="AffinityMappingSeaDemons"/>
     <Personality                    Name="PersonalityAffinitySeaDemons"/>
@@ -228,7 +228,7 @@
   </FactionAffinity>
     
   <!-- Flames -->
-  <FactionAffinity                  Name="AffinityFlames"                       SubCategory="MajorFactionAffinity"    Hidden="false" Cost="205">
+  <FactionAffinity                  Name="AffinityFlames"                       SubCategory="MajorFactionAffinity"    Hidden="false" Cost="805">
     <SimulationDescriptorReference  Name="AffinityFlames"/>
     <DefaultAffinityMapping         Name="AffinityMappingFlames"/>
     <Personality                    Name="PersonalityAffinityFlames"/>
@@ -249,7 +249,7 @@
   </FactionAffinity>
 
   <!-- Mimics -->
-  <FactionAffinity                  Name="AffinityMimics"                       SubCategory="MajorFactionAffinity"    Hidden="false" Cost="205">
+  <FactionAffinity                  Name="AffinityMimics"                       SubCategory="MajorFactionAffinity"    Hidden="false" Cost="805">
     <SimulationDescriptorReference  Name="AffinityMimics"/>
     <DefaultAffinityMapping         Name="AffinityMappingMimics"/>
     <Personality                    Name="PersonalityAffinityMimics"/>

@@ -929,7 +929,7 @@
 
   <!--============================================== POI DISTRIBUTION ===========================================-->
 
-  <MaxResourcesPerRegion>9</MaxResourcesPerRegion>
+  <MaxResourcesPerRegion>13</MaxResourcesPerRegion>
   <MaxDifferentLuxuryTypes>999</MaxDifferentLuxuryTypes>
   <StrategicResourcesAbundancePercent>200</StrategicResourcesAbundancePercent>
   <LuxuryResourcesAbundancePercent>200</LuxuryResourcesAbundancePercent>
