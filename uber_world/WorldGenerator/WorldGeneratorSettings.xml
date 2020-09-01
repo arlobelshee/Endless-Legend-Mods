@@ -938,13 +938,13 @@
   <POIAlgorithmParameters>
     
     <Algorithm Name="DistributeStrategicResources">
-      <Parameter Name="ExclusionRadius"         Value="1"/>
+      <Parameter Name="ExclusionRadius"         Value="0"/>
       <Parameter Name="MapSizeSensitivity"      Value="50"/>
       <Parameter Name="EmpireCountSensitivity"  Value="50"/>
     </Algorithm>
 
     <Algorithm Name="DistributeLuxuryResources">
-      <Parameter Name="ExclusionRadius"         Value="1"/>
+      <Parameter Name="ExclusionRadius"         Value="0"/>
       <Parameter Name="OverallQuantity"         Value="90"/>
       <Parameter Name="MapSizeSensitivity"      Value="100"/>
       <Parameter Name="EmpireCountSensitivity"  Value="0"/>
@@ -953,7 +953,7 @@
     </Algorithm>
 
     <Algorithm Name="DistributeVillages">
-      <Parameter Name="ExclusionRadius"         Value="1"/>
+      <Parameter Name="ExclusionRadius"         Value="0"/>
       <Parameter Name="MinSitesPerEmptyRegion"  Value="5"/>
       <Parameter Name="MaxSitesPerEmptyRegion"  Value="5"/>
       <Parameter Name="MinSitesPerSpawnRegion"  Value="5"/>
@@ -961,7 +961,7 @@
     </Algorithm>
 
     <Algorithm Name="DistributeWatchTowers">
-      <Parameter Name="ExclusionRadius"         Value="1"/>
+      <Parameter Name="ExclusionRadius"         Value="0"/>
       <Parameter Name="MinSitesPerRegion"       Value="2"/>
       <Parameter Name="MaxSitesPerRegion"       Value="4"/>
       <Parameter Name="TowerDistanceWeight"     Value="30"/>
