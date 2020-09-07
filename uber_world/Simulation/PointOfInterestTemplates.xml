@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <PointOfInterestTemplate Name="QuestLocation_Temple">
     <Property Name="Type">QuestLocation</Property>
     <Property Name="QuestLocationType">Temple</Property>
-    <Property Name="PreventsDistrictTypeCenterConstruction">False</Property>
-    <!--<Property Name="PreventsDistrictTypeExploitationConstruction">False</Property>-->
-    <Property Name="PreventsDistrictTypeExtensionConstruction">False</Property>
   </PointOfInterestTemplate>
 
   <PointOfInterestTemplate Name="QuestLocation_Ruin">
     <Property Name="Type">QuestLocation</Property>
     <Property Name="QuestLocationType">Ruin</Property>
-    <Property Name="PreventsDistrictTypeCenterConstruction">False</Property>
-    <!--<Property Name="PreventsDistrictTypeExploitationConstruction">False</Property>-->
-    <Property Name="PreventsDistrictTypeExtensionConstruction">False</Property>
   </PointOfInterestTemplate>
 
   <PointOfInterestTemplate Name="NavalQuestLocation_SunkenRuin">
     <Property Name="Type">NavalQuestLocation</Property>
     <Property Name="QuestLocationType">SunkenRuin</Property>
     <Property Name="IsOceanicPointOfInterest">true</Property>
-    <Property Name="PreventsDistrictTypeCenterConstruction">False</Property>
-    <!--<Property Name="PreventsDistrictTypeExploitationConstruction">False</Property>-->
-    <Property Name="PreventsDistrictTypeExtensionConstruction">False</Property>
   </PointOfInterestTemplate>
 
   <PointOfInterestTemplate Name="Village_Urces">
@@ -33,8 +25,6 @@
     <Property Name="Affinity">Urces</Property>
     <Property Name="AffinityMapping">Urces</Property>
     <Property Name="Improvement">Village_Urces</Property>
-    <Property Name="PreventsDistrictTypeCenterConstruction">False</Property>
-    <Property Name="PreventsDistrictTypeExtensionConstruction">False</Property>
   </PointOfInterestTemplate>
 
   <PointOfInterestTemplate Name="Village_Erycis">
@@ -44,8 +34,6 @@
     <Property Name="Affinity">Erycis</Property>
     <Property Name="AffinityMapping">Erycis</Property>
     <Property Name="Improvement">Village_Erycis</Property>
-    <Property Name="PreventsDistrictTypeCenterConstruction">False</Property>
-    <Property Name="PreventsDistrictTypeExtensionConstruction">False</Property>
   </PointOfInterestTemplate>
 
   <PointOfInterestTemplate Name="Village_Ceratan">
@@ -55,8 +43,6 @@
     <Property Name="Affinity">Ceratan</Property>
     <Property Name="AffinityMapping">Ceratan</Property>
     <Property Name="Improvement">Village_Ceratan</Property>
-    <Property Name="PreventsDistrictTypeCenterConstruction">False</Property>
-    <Property Name="PreventsDistrictTypeExtensionConstruction">False</Property>
   </PointOfInterestTemplate>
 
   <PointOfInterestTemplate Name="Village_Kazanji">
@@ -66,8 +52,6 @@
     <Property Name="Affinity">Kazanji</Property>
     <Property Name="AffinityMapping">Kazanji</Property>
     <Property Name="Improvement">Village_Kazanji</Property>
-    <Property Name="PreventsDistrictTypeCenterConstruction">False</Property>
-    <Property Name="PreventsDistrictTypeExtensionConstruction">False</Property>
   </PointOfInterestTemplate>
 
   <PointOfInterestTemplate Name="Village_Bos">
@@ -77,8 +61,6 @@
     <Property Name="Affinity">Bos</Property>
     <Property Name="AffinityMapping">Bos</Property>
     <Property Name="Improvement">Village_Bos</Property>
-    <Property Name="PreventsDistrictTypeCenterConstruction">False</Property>
-    <Property Name="PreventsDistrictTypeExtensionConstruction">False</Property>
   </PointOfInterestTemplate>
 
   <PointOfInterestTemplate Name="Village_Silics">
@@ -88,8 +70,6 @@
     <Property Name="Affinity">Silics</Property>
     <Property Name="AffinityMapping">Silics</Property>
     <Property Name="Improvement">Village_Silics</Property>
-    <Property Name="PreventsDistrictTypeCenterConstruction">False</Property>
-    <Property Name="PreventsDistrictTypeExtensionConstruction">False</Property>
   </PointOfInterestTemplate>
 
   <PointOfInterestTemplate Name="Village_Delvers">
@@ -99,8 +79,6 @@
     <Property Name="Affinity">Delvers</Property>
     <Property Name="AffinityMapping">Delvers</Property>
     <Property Name="Improvement">Village_Delvers</Property>
-    <Property Name="PreventsDistrictTypeCenterConstruction">False</Property>
-    <Property Name="PreventsDistrictTypeExtensionConstruction">False</Property>
   </PointOfInterestTemplate>
 
   <PointOfInterestTemplate Name="Village_SistersOfMercy">
@@ -110,8 +88,6 @@
     <Property Name="Affinity">SistersOfMercy</Property>
     <Property Name="AffinityMapping">SistersOfMercy</Property>
     <Property Name="Improvement">Village_SistersOfMercy</Property>
-    <Property Name="PreventsDistrictTypeCenterConstruction">False</Property>
-    <Property Name="PreventsDistrictTypeExtensionConstruction">False</Property>
   </PointOfInterestTemplate>
 
   <PointOfInterestTemplate Name="Village_Haunts">
@@ -121,8 +97,6 @@
     <Property Name="Affinity">Haunts</Property>
     <Property Name="AffinityMapping">Haunts</Property>
     <Property Name="Improvement">Village_Haunts</Property>
-    <Property Name="PreventsDistrictTypeCenterConstruction">False</Property>
-    <Property Name="PreventsDistrictTypeExtensionConstruction">False</Property>
   </PointOfInterestTemplate>
 
   <PointOfInterestTemplate Name="Village_Jotus">
@@ -132,8 +106,6 @@
     <Property Name="Affinity">Jotus</Property>
     <Property Name="AffinityMapping">Jotus</Property>
     <Property Name="Improvement">Village_Jotus</Property>
-    <Property Name="PreventsDistrictTypeCenterConstruction">False</Property>
-    <Property Name="PreventsDistrictTypeExtensionConstruction">False</Property>
   </PointOfInterestTemplate>
 
   <PointOfInterestTemplate Name="Village_Hurnas">
@@ -143,8 +115,6 @@
     <Property Name="Affinity">Hurnas</Property>
     <Property Name="AffinityMapping">Hurnas</Property>
     <Property Name="Improvement">Village_Hurnas</Property>
-    <Property Name="PreventsDistrictTypeCenterConstruction">False</Property>
-    <Property Name="PreventsDistrictTypeExtensionConstruction">False</Property>
   </PointOfInterestTemplate>
 
   <PointOfInterestTemplate Name="Village_Gauran">
@@ -154,8 +124,6 @@
     <Property Name="Affinity">Gauran</Property>
     <Property Name="AffinityMapping">Gauran</Property>
     <Property Name="Improvement">Village_Gauran</Property>
-    <Property Name="PreventsDistrictTypeCenterConstruction">False</Property>
-    <Property Name="PreventsDistrictTypeExtensionConstruction">False</Property>
   </PointOfInterestTemplate>
 
   <PointOfInterestTemplate Name="Village_Birdhive">
@@ -165,8 +133,6 @@
     <Property Name="Affinity">Birdhive</Property>
     <Property Name="AffinityMapping">Birdhive</Property>
     <Property Name="Improvement">Village_Birdhive</Property>
-    <Property Name="PreventsDistrictTypeCenterConstruction">False</Property>
-    <Property Name="PreventsDistrictTypeExtensionConstruction">False</Property>
   </PointOfInterestTemplate>
 
   <!-- DownloadableContent.FounderPack -->
@@ -177,8 +143,6 @@
     <Property Name="Affinity">Geldirus</Property>
     <Property Name="AffinityMapping">Geldirus</Property>
     <Property Name="Improvement">Village_Geldirus</Property>
-    <Property Name="PreventsDistrictTypeCenterConstruction">False</Property>
-    <Property Name="PreventsDistrictTypeExtensionConstruction">False</Property>
   </PointOfInterestTemplate>
 
   <PointOfInterestTemplate Name="Village_EyelessOnes">
@@ -188,8 +152,6 @@
     <Property Name="Affinity">EyelessOnes</Property>
     <Property Name="AffinityMapping">EyelessOnes</Property>
     <Property Name="Improvement">Village_EyelessOnes</Property>
-    <Property Name="PreventsDistrictTypeCenterConstruction">False</Property>
-    <Property Name="PreventsDistrictTypeExtensionConstruction">False</Property>
   </PointOfInterestTemplate>
 
   <PointOfInterestTemplate Name="Village_Dorgeshi">
@@ -199,8 +161,6 @@
     <Property Name="Affinity">Dorgeshi</Property>
     <Property Name="AffinityMapping">Dorgeshi</Property>
     <Property Name="Improvement">Village_Dorgeshi</Property>
-    <Property Name="PreventsDistrictTypeCenterConstruction">False</Property>
-    <Property Name="PreventsDistrictTypeExtensionConstruction">False</Property>
   </PointOfInterestTemplate>
 
   <PointOfInterestTemplate Name="Village_DawnShua">
@@ -210,8 +170,6 @@
     <Property Name="Affinity">DawnShua</Property>
     <Property Name="AffinityMapping">DawnShua</Property>
     <Property Name="Improvement">Village_DawnShua</Property>
-    <Property Name="PreventsDistrictTypeCenterConstruction">False</Property>
-    <Property Name="PreventsDistrictTypeExtensionConstruction">False</Property>
   </PointOfInterestTemplate>
 
 
@@ -230,8 +188,6 @@
     <Property Name="AffinityMapping">Fomorians</Property>
     <Property Name="Category">Citadel_0</Property>
     <Property Name="IsOceanicPointOfInterest">true</Property>
-    <Property Name="PreventsDistrictTypeCenterConstruction">False</Property>
-    <Property Name="PreventsDistrictTypeExtensionConstruction">False</Property>
     <Property Name="Improvement">Citadel0</Property>
   </PointOfInterestTemplate>
 
@@ -242,8 +198,6 @@
     <Property Name="AffinityMapping">Fomorians</Property>
     <Property Name="Category">Citadel_1</Property>
     <Property Name="IsOceanicPointOfInterest">true</Property>
-    <Property Name="PreventsDistrictTypeCenterConstruction">False</Property>
-    <Property Name="PreventsDistrictTypeExtensionConstruction">False</Property>
     <Property Name="Improvement">Citadel1</Property>
   </PointOfInterestTemplate>
 
@@ -254,8 +208,6 @@
     <Property Name="AffinityMapping">Fomorians</Property>
     <Property Name="Category">Citadel_2</Property>
     <Property Name="IsOceanicPointOfInterest">true</Property>
-    <Property Name="PreventsDistrictTypeCenterConstruction">False</Property>
-    <Property Name="PreventsDistrictTypeExtensionConstruction">False</Property>
     <Property Name="Improvement">Citadel2</Property>
   </PointOfInterestTemplate>
 
